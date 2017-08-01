@@ -25,21 +25,21 @@
             "Title":"我的优惠券",
             "Code":"Coupon",
             "NeedLogin":true,
-            "Icon":"/upload/centermenuimg/ic_coupon_cm.png",
+            "Icon":"http://i.lifevccdn.com/upload/centermenuimg/ic_coupon_cm.png",
             "Link":"inner:///usercenter/coupon"
           },
           {
             "Title":"现金积分",
             "Code":"Integral",
             "NeedLogin":true,
-            "Icon":"/upload/centermenuimg/ic_pig_cm.png",
+            "Icon":"http://i.lifevccdn.com/upload/centermenuimg/ic_pig_cm.png",
             "Link":"inner:///usercenter/integral"
           },
           {
             "Title":"关于发票",
             "Code":"AboutInvoice",
             "NeedLogin":true,
-            "Icon":"/upload/centermenuimg/ic_invoice.png",
+            "Icon":"http://i.lifevccdn.com/upload/centermenuimg/ic_invoice.png",
             "Link":"http://m.lifevc.com/home/help?c=Invoice&n=Rule"
           }
         ]
@@ -52,35 +52,35 @@
             "Title":"密码和登录信息",
             "Code":"Settings",
             "NeedLogin":true,
-            "Icon":"/upload/centermenuimg/i_gear_cm.png",
+            "Icon":"http://i.lifevccdn.com/upload/centermenuimg/i_gear_cm.png",
             "Link":"inner:///usercenter/settings"
           },
           {
             "Title":"老会员建议",
             "Code":"MemberSuggestion",
             "NeedLogin":true,
-            "Icon":"/upload/centermenuimg/i_dialoguebubble3_cm.png",
+            "Icon":"http://i.lifevccdn.com/upload/centermenuimg/i_dialoguebubble3_cm.png",
             "Link":"http://m.lifevc.com/Special/Suggestion?s=[session]"
           },
           {
             "Title":"客户服务",
             "Code":"CustomerService",
             "NeedLogin":false,
-            "Icon":"/upload/centermenuimg/i_customerservice_cm.png",
+            "Icon":"http://i.lifevccdn.com/upload/centermenuimg/i_customerservice_cm.png",
             "Link":"inner:///usercenter/customerservice"
           },
           {
             "Title":"地址管理",
             "Code":"Addresses",
             "NeedLogin":true,
-            "Icon":"/upload/centermenuimg/ic_currentnode_cm.png",
+            "Icon":"http://i.lifevccdn.com/upload/centermenuimg/ic_currentnode_cm.png",
             "Link":"inner:///usercenter/addresses"
           },
           {
             "Title":"手机验证",
             "Code":"checkphone",
             "NeedLogin":true,
-            "Icon":"/upload/centermenuimg/sms_cm.png",
+            "Icon":"http://i.lifevccdn.com/upload/centermenuimg/sms_cm.png",
             "Link":"inner:///usercenter/checkphone"
           }
         ]

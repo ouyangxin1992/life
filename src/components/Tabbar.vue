@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="latent">
     <router-view></router-view>
     <ul class="Tabbar">
       <li v-for='(obj,index) in list'  @click='imgchange(index,obj)'>
