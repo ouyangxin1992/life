@@ -76,7 +76,11 @@ export default {
       }
       obj.src =this.list[index].imgs;
     }
-  }
+  },
+  created(){
+    //	页面默认打开热卖页面
+    this.$router.push('/home');
+  },
 }
 </script>
 
