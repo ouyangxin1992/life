@@ -20,7 +20,6 @@
       var arr4=this;
       axios.get("../../static/data/dress.json").then(function (data) {
         arr4.base=data.data.InnerData.Categories;
-        console.log(data.data.InnerData.Categories)
       }).catch(function (err) {
         console.log(err)
       })

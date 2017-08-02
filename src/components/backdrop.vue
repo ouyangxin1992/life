@@ -20,7 +20,7 @@
           var logoIn=document.querySelector(".logoIn");
           logoIn.innerHTML="您还未登录";
           var aboutLogo=document.querySelector(".aboutLogo");
-          aboutLogo.style.display="block";
+          aboutLogo.style.display="flex";
           var detrusion=document.querySelector(".detrusion");
           detrusion.style.display="none";
         },
