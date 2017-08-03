@@ -21,10 +21,17 @@ import Bedding from '@/components/Bedding'
 import Travel from '@/components/Travel'
 import Know from '@/components/Know'
 
+import detailpage from '@/components/detailpage'
+
 Vue.use(Router);
 
 export default new Router({
   routes: [
+    {
+      path: '/detailpage',
+      name: 'detailpage',
+      component: detailpage,
+    },
     {
       path: '/',
       name: 'Tabbar',

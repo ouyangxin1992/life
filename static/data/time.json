@@ -9,6 +9,7 @@
       {
         "Type":1,
         "Name":"可降解环保垃圾袋(超值3包装)",
+        "detail":"专业可降解环保垃圾袋",
         "ItemInfoID":25094,
         "ActCode":null,
         "ItemType":1,
@@ -29,6 +30,7 @@
       {
         "Type":1,
         "Name":"酵素洗衣液(室内晾干专用)",
+        "detail":"专业酵素洗衣液",
         "ItemInfoID":25184,
         "ActCode":null,
         "ItemType":1,
@@ -49,6 +51,7 @@
       {
         "Type":1,
         "Name":"离子洗衣皂(3块装)",
+        "detail":"专业离子洗衣皂",
         "ItemInfoID":23079,
         "ActCode":null,
         "ItemType":0,
@@ -69,6 +72,7 @@
       {
         "Type":1,
         "Name":"抽真空防潮收纳袋(大-2只装)",
+        "detail":"专业抽真空防潮收纳袋",
         "ItemInfoID":24118,
         "ActCode":null,
         "ItemType":0,
@@ -89,6 +93,7 @@
       {
         "Type":1,
         "Name":"双层不锈钢保温壶(自由-1.5L)",
+        "detail":"专业双层不锈钢保温壶",
         "ItemInfoID":24820,
         "ActCode":null,
         "ItemType":1,
@@ -109,6 +114,7 @@
       {
         "Type":1,
         "Name":"加厚食品保鲜袋",
+        "detail":"专业加厚食品保鲜袋",
         "ItemInfoID":23166,
         "ActCode":null,
         "ItemType":0,
@@ -129,6 +135,7 @@
       {
         "Type":1,
         "Name":"随行杯榨汁机(Ⅲ代)",
+        "detail":"专业随行杯榨汁机",
         "ItemInfoID":23600,
         "ActCode":null,
         "ItemType":0,
@@ -149,6 +156,7 @@
       {
         "Type":1,
         "Name":"植物精粹面膜",
+        "detail":"专业植物精粹面膜",
         "ItemInfoID":19825,
         "ActCode":null,
         "ItemType":0,
@@ -169,6 +177,7 @@
       {
         "Type":1,
         "Name":"保鲜膜切割盒",
+        "detail":"专业保鲜膜切割盒",
         "ItemInfoID":18455,
         "ActCode":null,
         "ItemType":0,
@@ -189,6 +198,7 @@
       {
         "Type":1,
         "Name":"冰丝隐形船袜(3双)",
+        "detail":"专业冰丝隐形船袜",
         "ItemInfoID":25808,
         "ActCode":null,
         "ItemType":1,
@@ -209,6 +219,7 @@
       {
         "Type":1,
         "Name":"自粘式缝隙贴(2卷装)",
+        "detail":"专业自粘式缝隙贴",
         "ItemInfoID":23028,
         "ActCode":null,
         "ItemType":0,
@@ -229,6 +240,7 @@
       {
         "Type":1,
         "Name":"洋甘菊舒缓乳液",
+        "detail":"专业洋甘菊舒缓乳液",
         "ItemInfoID":22085,
         "ActCode":null,
         "ItemType":0,
@@ -249,6 +261,7 @@
       {
         "Type":1,
         "Name":"植物精粹洁面乳",
+        "detail":"专业植物精粹洁面乳",
         "ItemInfoID":21647,
         "ActCode":null,
         "ItemType":0,
@@ -269,12 +282,13 @@
       {
         "Type":1,
         "Name":"加拿大原生木浆抽纸（12包）",
+        "detail":"专业加拿大原生木浆抽纸",
         "ItemInfoID":25139,
         "ActCode":null,
         "ItemType":0,
         "ActType":0,
         "SalePrice":29,
-        "MarketPrice":"0.00",
+        "MarketPrice":"50.00",
         "ActivityPrice":0,
         "ImageUrl":"http://i.lifevccdn.com/upload/stroll/5b388119f79444ba889c4f6b9a118bad.jpg",
         "ItemLinkURL":"http://m.lifepre.com/h5/#/item/25139",
@@ -289,6 +303,7 @@
       {
         "Type":1,
         "Name":"乳胶床褥垫",
+        "detail":"专业乳胶床褥垫",
         "ItemInfoID":25070,
         "ActCode":null,
         "ItemType":1,
@@ -309,6 +324,7 @@
       {
         "Type":1,
         "Name":"不粘少油烟炒锅(美国华福)",
+        "detail":"专业不粘少油烟炒锅",
         "ItemInfoID":22783,
         "ActCode":null,
         "ItemType":0,
@@ -329,6 +345,7 @@
       {
         "Type":1,
         "Name":"超强韧飞机轮旅行箱(摩洛哥)",
+        "detail":"专业超强韧飞机轮旅行箱",
         "ItemInfoID":23988,
         "ActCode":null,
         "ItemType":1,
@@ -349,6 +366,7 @@
       {
         "Type":1,
         "Name":"竹炭超细软毛牙刷（3支装）",
+        "detail":"专业竹炭超细软毛牙刷",
         "ItemInfoID":23994,
         "ActCode":null,
         "ItemType":1,
@@ -369,6 +387,7 @@
       {
         "Type":1,
         "Name":"大容量玩具收纳箱(60L)",
+        "detail":"专业大容量玩具收纳箱",
         "ItemInfoID":25413,
         "ActCode":null,
         "ItemType":1,
@@ -389,6 +408,7 @@
       {
         "Type":1,
         "Name":"卫浴清洁剂",
+        "detail":"专业卫浴清洁剂",
         "ItemInfoID":24287,
         "ActCode":null,
         "ItemType":0,

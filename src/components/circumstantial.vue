@@ -1,6 +1,6 @@
 <template>
     <div class="circumstantial">
-      <div  v-for="obj in circumstantial" class="oo">
+      <div  v-for="(obj , index) in circumstantial" class="oo" v-on:click="goInter(index,obj)">
         <img :src="obj.ImageUrl" alt="">
         <p class="pp">{{obj.Name}}</p>
         <div class="openIn">
@@ -9,10 +9,11 @@
             <span class="small">￥{{obj.MarketPrice}}</span>
           </p>
           <p class="bigG">
-            月销&nbsp;{{obj.SaleQty}}
+            月销{{obj.SaleQty}}
           </p>
         </div>
       </div>
+      <router-view></router-view>
     </div>
 </template>
 
@@ -23,6 +24,13 @@
     data(){
       return{
         circumstantial:true
+      }
+    },
+    methods:{
+      goInter(index,obj){
+//        console.log(index);
+        this.$router.push({path:"/detailpage",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemInfoID);
       }
     },
     created(){

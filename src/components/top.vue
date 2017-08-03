@@ -3,7 +3,7 @@
     <!--logo-->
     <img src="../assets/logo.png" alt="" class="logo">
     <!--search-->
-    <img src="../assets/serch.png" alt="" class="serch">
+    <img src="../assets/serch.png" alt="" class="serch" v-on:click="enterAll">
   </div>
 </template>
 
@@ -13,6 +13,11 @@
 
   export default {
     name: 'top',
+    methods:{
+        enterAll(){
+          this.$router.push("/all")
+        }
+    }
   }
 </script>
 
