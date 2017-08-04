@@ -1,5 +1,5 @@
 <template>
-  <div class="discount">
+  <div class="discount" v-on:click="goDiscount">
       <p><span class="pic1"></span></p>
       <p><span class="pic2"></span></p>
       <p><span class="pic3"></span></p>
@@ -12,7 +12,11 @@
 
   export default {
     name: 'discount',
-
+    methods:{
+      goDiscount(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

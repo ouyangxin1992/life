@@ -1,5 +1,5 @@
 <template>
-  <div class="yuan">
+  <div class="yuan" v-on:click="goYuan">
     <img src="../../static/img/49yuan.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'yuan',
-
+    methods:{
+      goYuan(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

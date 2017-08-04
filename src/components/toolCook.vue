@@ -1,6 +1,6 @@
 <template>
   <div class="toolCook">
-    <div  v-for="obj in instrument" ids="obj.ItemInfoId">
+    <div  v-for="(obj,index) in instrument" v-on:click="goToolCook(index,obj)">
       <img :src="obj.CategoryImageUrl" alt="">
       <p>{{obj.Title}}</p>
     </div>
@@ -14,6 +14,12 @@
     data(){
       return{
         instrument:true
+      }
+    },
+    methods:{
+      goToolCook(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
       }
     },
     created(){

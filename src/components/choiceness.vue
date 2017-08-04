@@ -1,5 +1,5 @@
 <template>
-  <div class="choiceness">
+  <div class="choiceness" v-on:click="goChoiceness">
     <img src="../../static/img/choiceness.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'choiceness',
-
+    methods:{
+      goChoiceness(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

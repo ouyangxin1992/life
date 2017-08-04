@@ -2,9 +2,9 @@
   <div class="bb">
     <p class="allIn">工作和旅行</p>
     <div class="worker">
-      <div  v-for="obj in worker" >
-        <img :src="obj.Icon" alt="">
-        <p>{{obj.Name}}</p>
+      <div  v-for="(obj,index) in worker" v-on:click="goWorker(index,obj)">
+        <img :src="obj.CategoryImageUrl" alt="">
+        <p>{{obj.Title}}</p>
       </div>
     </div>
   </div>
@@ -19,11 +19,17 @@
         worker:true
       }
     },
+    methods:{
+      goWorker(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
+      }
+    },
     created(){
-      var ar1=this;
-      axios.get("../../static/data/all.json").then(function (data) {
-        ar1.worker=data.data.InnerData[6].Children;
-
+      var arr12=this;
+      axios.get("../../static/data/work.json").then(function (data) {
+        arr12.worker=data.data.InnerData.Categories;
+        console.log(data.data.InnerData.Categories)
       }).catch(function (err) {
         console.log(err)
       })

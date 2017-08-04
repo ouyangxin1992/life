@@ -1,5 +1,5 @@
 <template>
-  <div class="couch">
+  <div class="couch" v-on:click="goCouch">
     <img src="../../static/img/couch.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'couch',
-
+    methods:{
+      goCouch(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

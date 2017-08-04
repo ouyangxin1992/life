@@ -1,5 +1,5 @@
 <template>
-  <div class="news">
+  <div class="news" v-on:click="goNews">
     <img src="../../static/img/news.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'news',
-
+    methods:{
+      goNews(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

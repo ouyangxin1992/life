@@ -2,9 +2,9 @@
   <div>
     <p class="allIn">家务</p>
     <div class="housekeeping">
-      <div  v-for="obj in house" >
-        <img :src="obj.Icon" alt="">
-        <p>{{obj.Name}}</p>
+      <div  v-for="(obj,index) in house" v-on:click="goHousekeeping(index,obj)" >
+        <img :src="obj.CategoryImageUrl" alt="">
+        <p>{{obj.Title}}</p>
       </div>
     </div>
   </div>
@@ -19,11 +19,16 @@
         house:true
       }
     },
+    methods:{
+      goHousekeeping(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
+      }
+    },
     created(){
-      var ar1=this;
-      axios.get("../../static/data/all.json").then(function (data) {
-        ar1.house=data.data.InnerData[0].Children;
-
+      var arr3=this;
+      axios.get("../../static/data/chore.json").then(function (data) {
+        arr3.house=data.data.InnerData.Categories;
       }).catch(function (err) {
         console.log(err)
       })

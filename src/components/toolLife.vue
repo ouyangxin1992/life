@@ -1,6 +1,6 @@
 <template>
   <div class="toolLife">
-    <div  v-for="obj in life" ids="obj.ItemInfoId">
+    <div  v-for="(obj,index) in life" v-on:click="goToolLife(index,obj)">
       <img :src="obj.CategoryImageUrl" alt="">
       <p>{{obj.Title}}</p>
     </div>
@@ -14,6 +14,12 @@
     data(){
       return{
         life:true
+      }
+    },
+    methods:{
+      goToolLife(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
       }
     },
     created(){

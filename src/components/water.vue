@@ -1,5 +1,5 @@
 <template>
-  <div class="water">
+  <div class="water" v-on:click="goWater">
     <p class=" chartBig"></p>
     <p>
       <span class=" chartSmall1"></span>
@@ -13,7 +13,11 @@
 
   export default {
     name: 'water',
-
+    methods:{
+      goWater(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

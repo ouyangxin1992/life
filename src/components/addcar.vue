@@ -38,7 +38,23 @@
             num:amount.innerHTML,
             img:picTu.src
         }).then(function (res) {
-            
+          var diva=document.createElement("div");
+          diva.style.width="50%";
+          diva.style.height="50px";
+          diva.style.backgroundColor="rgba(0,0,0,0.5)";
+          diva.style.borderRadius="10px";
+          diva.style.lineHeight="50px";
+          diva.style.textAlign="center";
+          diva.style.color="white";
+          diva.style.position="absolute";
+          diva.style.top="200px";
+          diva.style.left="25%";
+          diva.innerHTML="加入购物车成功";
+          document.body.appendChild(diva);
+          diva.onclick=function () {
+            diva.style.display="none";
+          };
+          return;
           localStorage.setItem("vals","成功")
         })
       }

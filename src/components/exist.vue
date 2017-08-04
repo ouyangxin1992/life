@@ -1,5 +1,5 @@
 <template>
-  <div class="exist">
+  <div class="exist" v-on:click="goExist">
     <img src="../../static/img/exist.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'exist',
-
+    methods:{
+      goExist(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

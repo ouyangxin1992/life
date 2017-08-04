@@ -2,9 +2,9 @@
   <div>
     <p class="allIn">下厨</p>
     <div class="dessert">
-      <div  v-for="obj in dessert" >
-        <img :src="obj.Icon" alt="">
-        <p>{{obj.Name}}</p>
+      <div  v-for="(obj,index) in dessert" v-on:click="goDessert(index,obj)">
+        <img :src="obj.CategoryImageUrl" alt="">
+        <p>{{obj.Title}}</p>
       </div>
     </div>
   </div>
@@ -19,11 +19,17 @@
         dessert:true
       }
     },
+    methods:{
+      goDessert(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
+      }
+    },
     created(){
-      var ar1=this;
-      axios.get("../../static/data/all.json").then(function (data) {
-        ar1.dessert=data.data.InnerData[1].Children;
-
+      var arr3=this;
+      axios.get("../../static/data/kitchen.json").then(function (data) {
+        arr3.dessert=data.data.InnerData.Categories;
+        console.log(data.data.InnerData.Categories)
       }).catch(function (err) {
         console.log(err)
       })

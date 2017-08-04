@@ -20,7 +20,7 @@
           {
             "ItemInfoId":25305,
             "Name":"266T荷叶布超轻雨伞",
-            "ImageUrl":"/upload/AppItemInfoImage/1fcd2e6df2ac49618327fb3a99448a4c.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/1fcd2e6df2ac49618327fb3a99448a4c.jpg",
             "Code":"863119341",
             "SalePrice":99,
             "PriceTag":"",
@@ -45,7 +45,7 @@
           {
             "ItemInfoId":25331,
             "Name":"8K玻纤晴雨两用伞（抗UV）",
-            "ImageUrl":"/upload/AppItemInfoImage/053067082e74465d9a29e7f77589183a.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/053067082e74465d9a29e7f77589183a.jpg",
             "Code":"820555131",
             "SalePrice":69,
             "PriceTag":"",
@@ -70,7 +70,7 @@
           {
             "ItemInfoId":23297,
             "Name":"防滑加厚雨鞋套（高帮款）",
-            "ImageUrl":"/upload/AppItemInfoImage/b54b8aceb3c74521b54b023e9e37166a.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/b54b8aceb3c74521b54b023e9e37166a.jpg",
             "Code":"880178863",
             "SalePrice":29,
             "PriceTag":"",
@@ -111,7 +111,7 @@
           {
             "ItemInfoId":25246,
             "Name":"Tritan随身提手杯",
-            "ImageUrl":"/upload/AppItemInfoImage/cffbaff45580481b815ebf58956080ae.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/cffbaff45580481b815ebf58956080ae.jpg",
             "Code":"817016120",
             "SalePrice":35,
             "PriceTag":"新",
@@ -136,7 +136,7 @@
           {
             "ItemInfoId":25244,
             "Name":"Tritan运动杯",
-            "ImageUrl":"/upload/AppItemInfoImage/f0026f51f06246d794414a04e5105127.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f0026f51f06246d794414a04e5105127.jpg",
             "Code":"887874350",
             "SalePrice":29,
             "PriceTag":"新",
@@ -161,7 +161,7 @@
           {
             "ItemInfoId":24885,
             "Name":"单手开盖运动杯",
-            "ImageUrl":"/upload/AppItemInfoImage/d1347247480c4e59b196b4bd3d782bc6.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d1347247480c4e59b196b4bd3d782bc6.jpg",
             "Code":"816869020",
             "SalePrice":29,
             "PriceTag":"",
@@ -186,7 +186,7 @@
           {
             "ItemInfoId":25242,
             "Name":"Tritan少女吸管杯",
-            "ImageUrl":"/upload/AppItemInfoImage/9bddd72b37eb4784abde702cd2495b1b.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/9bddd72b37eb4784abde702cd2495b1b.jpg",
             "Code":"812401920",
             "SalePrice":39,
             "PriceTag":"",
@@ -211,7 +211,7 @@
           {
             "ItemInfoId":24408,
             "Name":"吸管式卖萌杯",
-            "ImageUrl":"/upload/AppItemInfoImage/550ae785203a4d78b0b6bb1f330a1101.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/550ae785203a4d78b0b6bb1f330a1101.jpg",
             "Code":"894680120",
             "SalePrice":29,
             "PriceTag":"",
@@ -236,7 +236,7 @@
           {
             "ItemInfoId":24285,
             "Name":"双层防烫玻璃水杯（带茶滤）",
-            "ImageUrl":"/upload/AppItemInfoImage/7e46abfd02d04ae2869e0c143c528df2.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/7e46abfd02d04ae2869e0c143c528df2.jpg",
             "Code":"895355631",
             "SalePrice":49,
             "PriceTag":"",
@@ -261,7 +261,7 @@
           {
             "ItemInfoId":24283,
             "Name":"手提式萌杯",
-            "ImageUrl":"/upload/AppItemInfoImage/fba15eb767b047a09e9c37f2ddd2186c.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/fba15eb767b047a09e9c37f2ddd2186c.jpg",
             "Code":"875374850",
             "SalePrice":29,
             "PriceTag":"",
@@ -286,7 +286,7 @@
           {
             "ItemInfoId":24281,
             "Name":"手提式萌杯（带硅胶套）",
-            "ImageUrl":"/upload/AppItemInfoImage/76f561de9af24438851672aa52e1b6f3.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/76f561de9af24438851672aa52e1b6f3.jpg",
             "Code":"859960630",
             "SalePrice":29,
             "PriceTag":"",
@@ -311,7 +311,7 @@
           {
             "ItemInfoId":20899,
             "Name":"单开式双层防烫玻璃随身杯",
-            "ImageUrl":"/upload/AppItemInfoImage/26de8f3698cf435fa1e8657a6682af74.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/26de8f3698cf435fa1e8657a6682af74.jpg",
             "Code":"822593990",
             "SalePrice":49,
             "PriceTag":"",
@@ -336,7 +336,7 @@
           {
             "ItemInfoId":20894,
             "Name":"耐高温玻璃随身杯(简约款)",
-            "ImageUrl":"/upload/AppItemInfoImage/992d6db9787345288dd89fd951a6bc5f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/992d6db9787345288dd89fd951a6bc5f.jpg",
             "Code":"866074222",
             "SalePrice":49,
             "PriceTag":"",
@@ -361,7 +361,7 @@
           {
             "ItemInfoId":23556,
             "Name":"耐高温玻璃花茶杯(樱花)",
-            "ImageUrl":"/upload/AppItemInfoImage/e618eb4646a94c9392149440efae2ee0.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/e618eb4646a94c9392149440efae2ee0.jpg",
             "Code":"858359120",
             "SalePrice":39,
             "PriceTag":"",
@@ -386,7 +386,7 @@
           {
             "ItemInfoId":23189,
             "Name":"耐高温玻璃花茶杯",
-            "ImageUrl":"/upload/AppItemInfoImage/57e413c20a8e47aab4bac38384899eba.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/57e413c20a8e47aab4bac38384899eba.jpg",
             "Code":"818273170",
             "SalePrice":49,
             "PriceTag":"",
@@ -411,7 +411,7 @@
           {
             "ItemInfoId":23239,
             "Name":"高白瓷办公水杯(不锈钢茶滤)",
-            "ImageUrl":"/upload/AppItemInfoImage/c7d8ae98f5e04618a879fa0dcd32e2de.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/c7d8ae98f5e04618a879fa0dcd32e2de.jpg",
             "Code":"801518900",
             "SalePrice":39,
             "PriceTag":"",
@@ -436,7 +436,7 @@
           {
             "ItemInfoId":23642,
             "Name":"双层不锈钢办公水杯",
-            "ImageUrl":"/upload/AppItemInfoImage/80bd83f5ecf04721a630ef6d14eb7632.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/80bd83f5ecf04721a630ef6d14eb7632.jpg",
             "Code":"813820100",
             "SalePrice":69,
             "PriceTag":"包邮",
@@ -461,7 +461,7 @@
           {
             "ItemInfoId":22634,
             "Name":"高白瓷健康多用水杯",
-            "ImageUrl":"/upload/AppItemInfoImage/4041c25e7d5245ae934117654a18fa2f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/4041c25e7d5245ae934117654a18fa2f.jpg",
             "Code":"875525560",
             "SalePrice":29,
             "PriceTag":"",
@@ -486,7 +486,7 @@
           {
             "ItemInfoId":22869,
             "Name":"高白瓷健康办公水杯",
-            "ImageUrl":"/upload/AppItemInfoImage/e5eb322c7eed43b2ad41676bf5e4beea.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/e5eb322c7eed43b2ad41676bf5e4beea.jpg",
             "Code":"821394791",
             "SalePrice":29,
             "PriceTag":"",
@@ -511,7 +511,7 @@
           {
             "ItemInfoId":21572,
             "Name":"陶瓷健康水杯",
-            "ImageUrl":"/upload/AppItemInfoImage/dd1794595322498baab91c58eb560e41.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/dd1794595322498baab91c58eb560e41.jpg",
             "Code":"820815630",
             "SalePrice":29,
             "PriceTag":"",
@@ -536,7 +536,7 @@
           {
             "ItemInfoId":24192,
             "Name":"保温保冷随身杯(350ML)",
-            "ImageUrl":"/upload/AppItemInfoImage/a35d1a19fc634784ac25604f2da6ac46.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/a35d1a19fc634784ac25604f2da6ac46.jpg",
             "Code":"817052761",
             "SalePrice":59,
             "PriceTag":"",
@@ -561,7 +561,7 @@
           {
             "ItemInfoId":24149,
             "Name":"保温保冷随身杯(300ML)",
-            "ImageUrl":"/upload/AppItemInfoImage/e6bae9c9ffbf483788cf7e82aece6046.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/e6bae9c9ffbf483788cf7e82aece6046.jpg",
             "Code":"802418030",
             "SalePrice":59,
             "PriceTag":"",
@@ -586,7 +586,7 @@
           {
             "ItemInfoId":22985,
             "Name":"不锈钢真空保温杯(瑞肯)",
-            "ImageUrl":"/upload/AppItemInfoImage/a7d9689059944c288ca392ac5529760c.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/a7d9689059944c288ca392ac5529760c.jpg",
             "Code":"877293180",
             "SalePrice":69,
             "PriceTag":"",
@@ -611,7 +611,7 @@
           {
             "ItemInfoId":23260,
             "Name":"单开式不锈钢真空保温杯(480ML)",
-            "ImageUrl":"/upload/AppItemInfoImage/efecfe1b9bb24f81ab2bef14ec597589.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/efecfe1b9bb24f81ab2bef14ec597589.jpg",
             "Code":"845786900",
             "SalePrice":69,
             "PriceTag":"",
@@ -636,7 +636,7 @@
           {
             "ItemInfoId":22172,
             "Name":"婴童不锈钢真空保温杯(吸管式)",
-            "ImageUrl":"/upload/AppItemInfoImage/7aedebee71634b868889b75cf0f04031.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/7aedebee71634b868889b75cf0f04031.jpg",
             "Code":"873319930",
             "SalePrice":89,
             "PriceTag":"",
@@ -661,7 +661,7 @@
           {
             "ItemInfoId":22488,
             "Name":"白领多功能养生杯",
-            "ImageUrl":"/upload/AppItemInfoImage/7f0c9de547b049b388c894dac8f047f7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/7f0c9de547b049b388c894dac8f047f7.jpg",
             "Code":"849604460",
             "SalePrice":69,
             "PriceTag":"",
@@ -702,7 +702,7 @@
           {
             "ItemInfoId":24824,
             "Name":"高端合金框飞机轮商务箱",
-            "ImageUrl":"/upload/AppItemInfoImage/07f53b859b274e158d2ab06c3bc519c5.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/07f53b859b274e158d2ab06c3bc519c5.jpg",
             "Code":"825809830",
             "SalePrice":399,
             "PriceTag":"新",
@@ -727,7 +727,7 @@
           {
             "ItemInfoId":23985,
             "Name":"超强韧飞机轮旅行箱（摩洛哥）",
-            "ImageUrl":"/upload/AppItemInfoImage/ca08f53d5bdc418f869d9ecc62ee5ada.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/ca08f53d5bdc418f869d9ecc62ee5ada.jpg",
             "Code":"861032051",
             "SalePrice":299,
             "PriceTag":"新",
@@ -752,7 +752,7 @@
           {
             "ItemInfoId":22809,
             "Name":"白领飞机轮旅行箱（日内瓦）",
-            "ImageUrl":"/upload/AppItemInfoImage/c593027170d9431d9384b53590488f23.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/c593027170d9431d9384b53590488f23.jpg",
             "Code":"877349880",
             "SalePrice":269,
             "PriceTag":"",
@@ -777,7 +777,7 @@
           {
             "ItemInfoId":23442,
             "Name":"白领飞机轮旅行箱（马德里）",
-            "ImageUrl":"/upload/AppItemInfoImage/547b49739dba40c49f17755c989373ca.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/547b49739dba40c49f17755c989373ca.jpg",
             "Code":"816422440",
             "SalePrice":299,
             "PriceTag":"",
@@ -802,7 +802,7 @@
           {
             "ItemInfoId":11722,
             "Name":"白领超强韧旅行箱",
-            "ImageUrl":"/upload/AppItemInfoImage/dd457e51cb444460a006ba2b7d06e111.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/dd457e51cb444460a006ba2b7d06e111.jpg",
             "Code":"236298911",
             "SalePrice":249,
             "PriceTag":"",
@@ -827,7 +827,7 @@
           {
             "ItemInfoId":22675,
             "Name":"白领可扩容旅行箱(星空)",
-            "ImageUrl":"/upload/AppItemInfoImage/c5a25c5122b047a981107219b97cf9e0.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/c5a25c5122b047a981107219b97cf9e0.jpg",
             "Code":"852834071",
             "SalePrice":269,
             "PriceTag":"",
@@ -852,7 +852,7 @@
           {
             "ItemInfoId":22674,
             "Name":"白领可扩容旅行箱（英伦）",
-            "ImageUrl":"/upload/AppItemInfoImage/d3644e9bf0424ecea12ec78f6cf635b6.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d3644e9bf0424ecea12ec78f6cf635b6.jpg",
             "Code":"852834070",
             "SalePrice":269,
             "PriceTag":"",
@@ -877,7 +877,7 @@
           {
             "ItemInfoId":23846,
             "Name":"白领可扩容旅行箱（欧风）",
-            "ImageUrl":"/upload/AppItemInfoImage/75ec97454b204bed8a78107eaeb1d1a0.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/75ec97454b204bed8a78107eaeb1d1a0.jpg",
             "Code":"847040150",
             "SalePrice":269,
             "PriceTag":"",
@@ -902,7 +902,7 @@
           {
             "ItemInfoId":22812,
             "Name":"白领飞机轮旅行箱(威尼斯)",
-            "ImageUrl":"/upload/AppItemInfoImage/9b40be18383941f5b407d6a5f8ab9fb6.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/9b40be18383941f5b407d6a5f8ab9fb6.jpg",
             "Code":"845670291",
             "SalePrice":299,
             "PriceTag":"",
@@ -927,7 +927,7 @@
           {
             "ItemInfoId":8889,
             "Name":"白领铝框防盗旅行箱",
-            "ImageUrl":"/upload/AppItemInfoImage/d4ae23fb72b543358b3325111c03ba33.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d4ae23fb72b543358b3325111c03ba33.jpg",
             "Code":"181175465",
             "SalePrice":399,
             "PriceTag":"",
@@ -952,7 +952,7 @@
           {
             "ItemInfoId":13815,
             "Name":"精英商务超省力旅行箱",
-            "ImageUrl":"/upload/AppItemInfoImage/0ae8fab2ae83407a87825376f79f70c1.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0ae8fab2ae83407a87825376f79f70c1.jpg",
             "Code":"2361510910",
             "SalePrice":379,
             "PriceTag":"",
@@ -977,7 +977,7 @@
           {
             "ItemInfoId":12607,
             "Name":"可背式轻便拉杆箱",
-            "ImageUrl":"/upload/AppItemInfoImage/0f0b83bf8f49443eb9e5ce192716c41d.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0f0b83bf8f49443eb9e5ce192716c41d.jpg",
             "Code":"236289798",
             "SalePrice":249,
             "PriceTag":"",
@@ -1002,7 +1002,7 @@
           {
             "ItemInfoId":24685,
             "Name":"耐磨高弹力旅行箱保护套",
-            "ImageUrl":"/upload/AppItemInfoImage/0f62cbecb4be4c70a32216c7a6f0b1f7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0f62cbecb4be4c70a32216c7a6f0b1f7.jpg",
             "Code":"883593673",
             "SalePrice":45,
             "PriceTag":"新",
@@ -1027,7 +1027,7 @@
           {
             "ItemInfoId":10391,
             "Name":"防水旅行箱保护套",
-            "ImageUrl":"/upload/AppItemInfoImage/22ffd49f4f9a418899aea9cb05f5f13d.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/22ffd49f4f9a418899aea9cb05f5f13d.jpg",
             "Code":"133177403",
             "SalePrice":29,
             "PriceTag":"",
@@ -1068,7 +1068,7 @@
           {
             "ItemInfoId":25083,
             "Name":"差旅便携式晾晒夹（两条装）",
-            "ImageUrl":"/upload/AppItemInfoImage/eb77434ceb084119869ee684a941fec2.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/eb77434ceb084119869ee684a941fec2.jpg",
             "Code":"808558210",
             "SalePrice":19,
             "PriceTag":"新",
@@ -1093,7 +1093,7 @@
           {
             "ItemInfoId":11418,
             "Name":"差旅可折叠晾衣架(3只装)",
-            "ImageUrl":"/upload/AppItemInfoImage/c1b9839eb2434c1bafcfba4f3afd598c.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/c1b9839eb2434c1bafcfba4f3afd598c.jpg",
             "Code":"238338549",
             "SalePrice":19,
             "PriceTag":"",
@@ -1118,7 +1118,7 @@
           {
             "ItemInfoId":23375,
             "Name":"大容量差旅洗漱包(可挂式)",
-            "ImageUrl":"/upload/AppItemInfoImage/3181aad4df32459c81b2d4f7ce260307.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/3181aad4df32459c81b2d4f7ce260307.jpg",
             "Code":"801271000",
             "SalePrice":39,
             "PriceTag":"",
@@ -1143,7 +1143,7 @@
           {
             "ItemInfoId":20420,
             "Name":"可挂式白领洗漱包",
-            "ImageUrl":"/upload/AppItemInfoImage/f7a2476c051a4b0e8a42575dbe7fb01f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f7a2476c051a4b0e8a42575dbe7fb01f.jpg",
             "Code":"869179820",
             "SalePrice":39,
             "PriceTag":"",
@@ -1168,7 +1168,7 @@
           {
             "ItemInfoId":8630,
             "Name":"差旅便携式牙刷盒(2只装-绿蓝)",
-            "ImageUrl":"/upload/AppItemInfoImage/42b089d9dbdc4efc9cf39da5e87638f5.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/42b089d9dbdc4efc9cf39da5e87638f5.jpg",
             "Code":"181295169",
             "SalePrice":9,
             "PriceTag":"",
@@ -1193,7 +1193,7 @@
           {
             "ItemInfoId":23510,
             "Name":"差旅分类收纳5件套",
-            "ImageUrl":"/upload/AppItemInfoImage/0afa9ef1dc2847569bee1ddc4c31bad2.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0afa9ef1dc2847569bee1ddc4c31bad2.jpg",
             "Code":"883711772",
             "SalePrice":69,
             "PriceTag":"",
@@ -1218,7 +1218,7 @@
           {
             "ItemInfoId":13103,
             "Name":"差旅抽真空收纳袋(组合6只)",
-            "ImageUrl":"/upload/AppItemInfoImage/ebfb745e46584d4d9a7a7f37b451dfd9.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/ebfb745e46584d4d9a7a7f37b451dfd9.jpg",
             "Code":"2611710863",
             "SalePrice":59,
             "PriceTag":"",
@@ -1243,7 +1243,7 @@
           {
             "ItemInfoId":10139,
             "Name":"抽真空防潮收纳袋(组合6件装)",
-            "ImageUrl":"/upload/AppItemInfoImage/4e6fa6be064a4850a0d355d02b43c6b0.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/4e6fa6be064a4850a0d355d02b43c6b0.jpg",
             "Code":"143297047",
             "SalePrice":59,
             "PriceTag":"",
@@ -1268,7 +1268,7 @@
           {
             "ItemInfoId":23374,
             "Name":"差旅内衣内裤整理包",
-            "ImageUrl":"/upload/AppItemInfoImage/80dec194a03e40e19c55bad961dca6dc.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/80dec194a03e40e19c55bad961dca6dc.jpg",
             "Code":"816569501",
             "SalePrice":39,
             "PriceTag":"",
@@ -1293,7 +1293,7 @@
           {
             "ItemInfoId":9902,
             "Name":"多功能内衣内裤收纳包",
-            "ImageUrl":"/upload/AppItemInfoImage/98e864638f7346b5a394427de94935d1.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/98e864638f7346b5a394427de94935d1.jpg",
             "Code":"143176614",
             "SalePrice":45,
             "PriceTag":"",
@@ -1318,7 +1318,7 @@
           {
             "ItemInfoId":23410,
             "Name":"差旅美鞋收纳袋",
-            "ImageUrl":"/upload/AppItemInfoImage/355a2ad4238d4c76a5b48895cc0ded90.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/355a2ad4238d4c76a5b48895cc0ded90.jpg",
             "Code":"803762580",
             "SalePrice":19,
             "PriceTag":"",
@@ -1343,7 +1343,7 @@
           {
             "ItemInfoId":23406,
             "Name":"差旅数码分类收纳包",
-            "ImageUrl":"/upload/AppItemInfoImage/d4e4ebd3f4cd4c4087447093f9ede2e4.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d4e4ebd3f4cd4c4087447093f9ede2e4.jpg",
             "Code":"868321090",
             "SalePrice":29,
             "PriceTag":"",
@@ -1368,7 +1368,7 @@
           {
             "ItemInfoId":23408,
             "Name":"差旅衣物双层收纳袋",
-            "ImageUrl":"/upload/AppItemInfoImage/501306efbfec4f8095444b267c32ee43.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/501306efbfec4f8095444b267c32ee43.jpg",
             "Code":"840970070",
             "SalePrice":29,
             "PriceTag":"",
@@ -1393,7 +1393,7 @@
           {
             "ItemInfoId":23964,
             "Name":"差旅脏衣收纳袋(3件套)",
-            "ImageUrl":"/upload/AppItemInfoImage/00190abbe2e44dec9aa18b2b4f1cf148.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/00190abbe2e44dec9aa18b2b4f1cf148.jpg",
             "Code":"806522002",
             "SalePrice":29,
             "PriceTag":"",
@@ -1418,7 +1418,7 @@
           {
             "ItemInfoId":20826,
             "Name":"差旅易收纳手卷袋(5只装)",
-            "ImageUrl":"/upload/AppItemInfoImage/ee5205f0929c4283ae81fcc3420afd03.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/ee5205f0929c4283ae81fcc3420afd03.jpg",
             "Code":"885441360",
             "SalePrice":19,
             "PriceTag":"",
@@ -1443,7 +1443,7 @@
           {
             "ItemInfoId":20833,
             "Name":"差旅多用时尚收纳袋（3件套）",
-            "ImageUrl":"/upload/AppItemInfoImage/5bec7de0ef7b40d7859733c0a4979238.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/5bec7de0ef7b40d7859733c0a4979238.jpg",
             "Code":"838436130",
             "SalePrice":19,
             "PriceTag":"",
@@ -1484,7 +1484,7 @@
           {
             "ItemInfoId":23402,
             "Name":"舒适休闲双肩包（安第斯）",
-            "ImageUrl":"/upload/AppItemInfoImage/44635d3b38ee40e6a836f68a697b1ccd.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/44635d3b38ee40e6a836f68a697b1ccd.jpg",
             "Code":"862040000",
             "SalePrice":169,
             "PriceTag":"",
@@ -1509,7 +1509,7 @@
           {
             "ItemInfoId":24364,
             "Name":"舒适休闲双肩包(星空)",
-            "ImageUrl":"/upload/AppItemInfoImage/37d5ab8163974c73ad779fe38fe506f7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/37d5ab8163974c73ad779fe38fe506f7.jpg",
             "Code":"894418680",
             "SalePrice":99,
             "PriceTag":"",
@@ -1534,7 +1534,7 @@
           {
             "ItemInfoId":23403,
             "Name":"舒适休闲双肩包(爱丁堡)",
-            "ImageUrl":"/upload/AppItemInfoImage/2bae113d66ad45bf85d5b1fbd6a26d29.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/2bae113d66ad45bf85d5b1fbd6a26d29.jpg",
             "Code":"851316740",
             "SalePrice":149,
             "PriceTag":"",
@@ -1559,7 +1559,7 @@
           {
             "ItemInfoId":15759,
             "Name":"经典时尚通勤双肩包(铆钉款)",
-            "ImageUrl":"/upload/AppItemInfoImage/75368ad8174741fbbdeaa68471a110e9.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/75368ad8174741fbbdeaa68471a110e9.jpg",
             "Code":"2362213688",
             "SalePrice":199,
             "PriceTag":"",
@@ -1584,7 +1584,7 @@
           {
             "ItemInfoId":12325,
             "Name":"省力舒适双肩包(旅行轻便款)",
-            "ImageUrl":"/upload/AppItemInfoImage/894982043f474c34ae6d275ed850a62f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/894982043f474c34ae6d275ed850a62f.jpg",
             "Code":"236179638",
             "SalePrice":99,
             "PriceTag":"",
@@ -1609,7 +1609,7 @@
           {
             "ItemInfoId":24831,
             "Name":"折叠式差旅多功能包",
-            "ImageUrl":"/upload/AppItemInfoImage/6e8a9664a20049b482d5cd9b2208f3c5.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/6e8a9664a20049b482d5cd9b2208f3c5.jpg",
             "Code":"836175240",
             "SalePrice":69,
             "PriceTag":"新",
@@ -1634,7 +1634,7 @@
           {
             "ItemInfoId":23379,
             "Name":"折叠备用双肩包",
-            "ImageUrl":"/upload/AppItemInfoImage/f5ff907d7aab4eb4ad702d47879b5018.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f5ff907d7aab4eb4ad702d47879b5018.jpg",
             "Code":"868804950",
             "SalePrice":49,
             "PriceTag":"",
@@ -1659,7 +1659,7 @@
           {
             "ItemInfoId":23377,
             "Name":"折叠多功能包",
-            "ImageUrl":"/upload/AppItemInfoImage/33497271952942f1a59409a6f91dd05b.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/33497271952942f1a59409a6f91dd05b.jpg",
             "Code":"830169590",
             "SalePrice":49,
             "PriceTag":"包邮",
@@ -1684,7 +1684,7 @@
           {
             "ItemInfoId":25049,
             "Name":"便携式防水防污购物袋",
-            "ImageUrl":"/upload/AppItemInfoImage/1e499193e70d4ebba44f7d77edac9e86.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/1e499193e70d4ebba44f7d77edac9e86.jpg",
             "Code":"801190531",
             "SalePrice":29,
             "PriceTag":"新",
@@ -1709,7 +1709,7 @@
           {
             "ItemInfoId":23382,
             "Name":"折叠备用购物袋",
-            "ImageUrl":"/upload/AppItemInfoImage/d7d58c8631694694b0c4e801d67100d7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d7d58c8631694694b0c4e801d67100d7.jpg",
             "Code":"898507591",
             "SalePrice":25,
             "PriceTag":"",
@@ -1734,7 +1734,7 @@
           {
             "ItemInfoId":23396,
             "Name":"随身包中包(拉链款)",
-            "ImageUrl":"/upload/AppItemInfoImage/34aae568ea9b41d7b8cf1af9e8392077.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/34aae568ea9b41d7b8cf1af9e8392077.jpg",
             "Code":"821011620",
             "SalePrice":49,
             "PriceTag":"",
@@ -1759,7 +1759,7 @@
           {
             "ItemInfoId":23414,
             "Name":"随身包中包（内胆款）",
-            "ImageUrl":"/upload/AppItemInfoImage/6ce465c363cc430fab769c0bc36c78cb.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/6ce465c363cc430fab769c0bc36c78cb.jpg",
             "Code":"855017850",
             "SalePrice":35,
             "PriceTag":"",
@@ -1784,7 +1784,7 @@
           {
             "ItemInfoId":24827,
             "Name":"专业防水运动包 ",
-            "ImageUrl":"/upload/AppItemInfoImage/6b4df93f9686487cb33f072ad0cd9556.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/6b4df93f9686487cb33f072ad0cd9556.jpg",
             "Code":"869960260",
             "SalePrice":49,
             "PriceTag":"新",
@@ -1809,7 +1809,7 @@
           {
             "ItemInfoId":23413,
             "Name":"差旅证件分类包",
-            "ImageUrl":"/upload/AppItemInfoImage/5932046bf51e4227bef7f632298a2495.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/5932046bf51e4227bef7f632298a2495.jpg",
             "Code":"820580082",
             "SalePrice":39,
             "PriceTag":"",
@@ -1834,7 +1834,7 @@
           {
             "ItemInfoId":12842,
             "Name":"英伦优雅通勤包",
-            "ImageUrl":"/upload/AppItemInfoImage/f7f0c72e2e4f41a8a67f2877b55cbbda.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f7f0c72e2e4f41a8a67f2877b55cbbda.jpg",
             "Code":"2692510293",
             "SalePrice":179,
             "PriceTag":"",
@@ -1859,7 +1859,7 @@
           {
             "ItemInfoId":10097,
             "Name":"英伦时尚通勤包",
-            "ImageUrl":"/upload/AppItemInfoImage/120c289809d84baaa2e314b05464bc6f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/120c289809d84baaa2e314b05464bc6f.jpg",
             "Code":"133176927",
             "SalePrice":129,
             "PriceTag":"",
@@ -1884,7 +1884,7 @@
           {
             "ItemInfoId":11621,
             "Name":"英伦经典通勤子母包",
-            "ImageUrl":"/upload/AppItemInfoImage/255ff84b84c94edb8485900f7b2f5b0c.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/255ff84b84c94edb8485900f7b2f5b0c.jpg",
             "Code":"269218587",
             "SalePrice":149,
             "PriceTag":"",
@@ -1909,7 +1909,7 @@
           {
             "ItemInfoId":13108,
             "Name":"英伦拼色子母包",
-            "ImageUrl":"/upload/AppItemInfoImage/5c47e4cd9dbd4864b9e398ce740c62b2.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/5c47e4cd9dbd4864b9e398ce740c62b2.jpg",
             "Code":"2361710314",
             "SalePrice":149,
             "PriceTag":"",
@@ -1934,7 +1934,7 @@
           {
             "ItemInfoId":11322,
             "Name":"差旅多功能随身包",
-            "ImageUrl":"/upload/AppItemInfoImage/fc5d5454c93d4415ba06975c93812362.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/fc5d5454c93d4415ba06975c93812362.jpg",
             "Code":"236148432",
             "SalePrice":69,
             "PriceTag":"",
@@ -1959,7 +1959,7 @@
           {
             "ItemInfoId":12215,
             "Name":"防潮防摔差旅相机包",
-            "ImageUrl":"/upload/AppItemInfoImage/850c7a119dc44f14b35327378eab9357.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/850c7a119dc44f14b35327378eab9357.jpg",
             "Code":"238179481",
             "SalePrice":69,
             "PriceTag":"",
@@ -1984,7 +1984,7 @@
           {
             "ItemInfoId":9115,
             "Name":"英伦时尚旅行拎包(大)",
-            "ImageUrl":"/upload/AppItemInfoImage/f2fc2fa564d045db8628a3bc864db4fd.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f2fc2fa564d045db8628a3bc864db4fd.jpg",
             "Code":"133145798",
             "SalePrice":199,
             "PriceTag":"",
@@ -2009,7 +2009,7 @@
           {
             "ItemInfoId":8899,
             "Name":"英伦时尚旅行拎包(超大)",
-            "ImageUrl":"/upload/AppItemInfoImage/66c450107f6c48d4ae062e25022b38d7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/66c450107f6c48d4ae062e25022b38d7.jpg",
             "Code":"133125487",
             "SalePrice":249,
             "PriceTag":"",
@@ -2050,7 +2050,7 @@
           {
             "ItemInfoId":17984,
             "Name":"白领护腰靠垫",
-            "ImageUrl":"/upload/AppItemInfoImage/383a1ed64fe241a3880c12e77c6666a7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/383a1ed64fe241a3880c12e77c6666a7.jpg",
             "Code":"805205712",
             "SalePrice":49,
             "PriceTag":"",
@@ -2075,7 +2075,7 @@
           {
             "ItemInfoId":6310,
             "Name":"太空记忆护椎腰托(标准型)",
-            "ImageUrl":"/upload/AppItemInfoImage/3e4d9bad185b4a5d953319c65d6e5eed.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/3e4d9bad185b4a5d953319c65d6e5eed.jpg",
             "Code":"131122292",
             "SalePrice":69,
             "PriceTag":"",
@@ -2100,7 +2100,7 @@
           {
             "ItemInfoId":23538,
             "Name":"舒适办公靠垫(达利)",
-            "ImageUrl":"/upload/AppItemInfoImage/06024ac81188427689a2c765268778a3.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/06024ac81188427689a2c765268778a3.jpg",
             "Code":"839760351",
             "SalePrice":39,
             "PriceTag":"",
@@ -2125,7 +2125,7 @@
           {
             "ItemInfoId":23537,
             "Name":"舒适办公靠垫(皇冠)",
-            "ImageUrl":"/upload/AppItemInfoImage/77e43f99356c41f181594318fc28692f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/77e43f99356c41f181594318fc28692f.jpg",
             "Code":"839760350",
             "SalePrice":39,
             "PriceTag":"",
@@ -2150,7 +2150,7 @@
           {
             "ItemInfoId":23392,
             "Name":"太空记忆舒压颈枕",
-            "ImageUrl":"/upload/AppItemInfoImage/cff53beebfc14fce91732862f67a6933.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/cff53beebfc14fce91732862f67a6933.jpg",
             "Code":"864359660",
             "SalePrice":49,
             "PriceTag":"",
@@ -2175,7 +2175,7 @@
           {
             "ItemInfoId":23391,
             "Name":"太空记忆办公午睡枕",
-            "ImageUrl":"/upload/AppItemInfoImage/39da1735129047b586651a3d7b54c436.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/39da1735129047b586651a3d7b54c436.jpg",
             "Code":"843992331",
             "SalePrice":49,
             "PriceTag":"",
@@ -2200,7 +2200,7 @@
           {
             "ItemInfoId":23387,
             "Name":"车用颈托(太空记忆棉)",
-            "ImageUrl":"/upload/AppItemInfoImage/733028dbcfe941eebdff19e4bf828f5b.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/733028dbcfe941eebdff19e4bf828f5b.jpg",
             "Code":"893290570",
             "SalePrice":59,
             "PriceTag":"",
@@ -2225,7 +2225,7 @@
           {
             "ItemInfoId":17937,
             "Name":"太空记忆舒压颈托",
-            "ImageUrl":"/upload/AppItemInfoImage/94ec43a3b71747e8b58107d93e5289e9.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/94ec43a3b71747e8b58107d93e5289e9.jpg",
             "Code":"877939122",
             "SalePrice":39,
             "PriceTag":"",
@@ -2250,7 +2250,7 @@
           {
             "ItemInfoId":7156,
             "Name":"太空记忆美臀坐垫",
-            "ImageUrl":"/upload/AppItemInfoImage/6a735d474f9645538be862e668b9022a.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/6a735d474f9645538be862e668b9022a.jpg",
             "Code":"132293433",
             "SalePrice":79,
             "PriceTag":"",
@@ -2275,7 +2275,7 @@
           {
             "ItemInfoId":17411,
             "Name":"3D减压午睡眼罩",
-            "ImageUrl":"/upload/AppItemInfoImage/3abbbf4fff0c42a38c4b28e904e76444.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/3abbbf4fff0c42a38c4b28e904e76444.jpg",
             "Code":"825366180",
             "SalePrice":15,
             "PriceTag":"",
@@ -2300,7 +2300,7 @@
           {
             "ItemInfoId":11216,
             "Name":"白领舒压捶背器",
-            "ImageUrl":"/upload/AppItemInfoImage/a707d8fb04b7487e9b069601da139a69.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/a707d8fb04b7487e9b069601da139a69.jpg",
             "Code":"267178355",
             "SalePrice":15,
             "PriceTag":"",
@@ -2341,7 +2341,7 @@
           {
             "ItemInfoId":23416,
             "Name":"高效率周计划本",
-            "ImageUrl":"/upload/AppItemInfoImage/e79bbbfb99a94f3b9e9abd8ac997cd90.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/e79bbbfb99a94f3b9e9abd8ac997cd90.jpg",
             "Code":"837905900",
             "SalePrice":15,
             "PriceTag":"",
@@ -2366,7 +2366,7 @@
           {
             "ItemInfoId":25168,
             "Name":"高效率周计划本(随身款)",
-            "ImageUrl":"/upload/AppItemInfoImage/88fdc010ad074795b520eff46732351e.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/88fdc010ad074795b520eff46732351e.jpg",
             "Code":"82009739",
             "SalePrice":12,
             "PriceTag":"",
@@ -2391,7 +2391,7 @@
           {
             "ItemInfoId":25176,
             "Name":"软面抄记事本(文艺系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/eb9eb96de3b64c8fa49fe99312ff19f1.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/eb9eb96de3b64c8fa49fe99312ff19f1.jpg",
             "Code":"84968460",
             "SalePrice":9,
             "PriceTag":"",
@@ -2416,7 +2416,7 @@
           {
             "ItemInfoId":25174,
             "Name":"软面抄记事本(创意系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/60c875efa280474489a0b24138ad9edd.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/60c875efa280474489a0b24138ad9edd.jpg",
             "Code":"85286914",
             "SalePrice":9,
             "PriceTag":"",
@@ -2441,7 +2441,7 @@
           {
             "ItemInfoId":21867,
             "Name":"高效加厚办公文件夹",
-            "ImageUrl":"/upload/AppItemInfoImage/afb9e45dc3044217bc0a7040d1a15605.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/afb9e45dc3044217bc0a7040d1a15605.jpg",
             "Code":"853081681",
             "SalePrice":12,
             "PriceTag":"",
@@ -2466,7 +2466,7 @@
           {
             "ItemInfoId":18416,
             "Name":"防滑鼠标垫",
-            "ImageUrl":"/upload/AppItemInfoImage/f4ddc7e3604e4fe48396e0ff86bef088.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f4ddc7e3604e4fe48396e0ff86bef088.jpg",
             "Code":"807120572",
             "SalePrice":9,
             "PriceTag":"",
@@ -2491,7 +2491,7 @@
           {
             "ItemInfoId":18442,
             "Name":"木质桌面整理架（镜面款）",
-            "ImageUrl":"/upload/AppItemInfoImage/ccf508e91a2b4e42a2eb9a1334910244.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/ccf508e91a2b4e42a2eb9a1334910244.jpg",
             "Code":"875495810",
             "SalePrice":39,
             "PriceTag":"",
@@ -2532,7 +2532,7 @@
           {
             "ItemInfoId":17747,
             "Name":"LED护眼充电台灯(3档模式-蓝色)",
-            "ImageUrl":"/upload/AppItemInfoImage/4ec9f4808c0047f98205d5ecb3471696.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/4ec9f4808c0047f98205d5ecb3471696.jpg",
             "Code":"879473720",
             "SalePrice":49,
             "PriceTag":"",
@@ -2557,7 +2557,7 @@
           {
             "ItemInfoId":20280,
             "Name":"LED护眼充电台灯(3档模式-经典款)",
-            "ImageUrl":"/upload/AppItemInfoImage/a4fbe08e70554062872faa2908e7377b.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/a4fbe08e70554062872faa2908e7377b.jpg",
             "Code":"827880750",
             "SalePrice":89,
             "PriceTag":"",
@@ -2582,7 +2582,7 @@
           {
             "ItemInfoId":15804,
             "Name":"LED护眼台灯(4档模式-含USB)",
-            "ImageUrl":"/upload/AppItemInfoImage/4030a6212bf24bde9fae47a0a21cbb20.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/4030a6212bf24bde9fae47a0a21cbb20.jpg",
             "Code":"2642914011",
             "SalePrice":149,
             "PriceTag":"",
@@ -2623,7 +2623,7 @@
           {
             "ItemInfoId":11428,
             "Name":"舒适电脑椅(简约型-棕色)",
-            "ImageUrl":"/upload/AppItemInfoImage/0d2dd344334d44f8ac7cf18aa00de4aa.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0d2dd344334d44f8ac7cf18aa00de4aa.jpg",
             "Code":"221298450",
             "SalePrice":449,
             "PriceTag":"",
@@ -2648,7 +2648,7 @@
           {
             "ItemInfoId":11430,
             "Name":"舒适电脑椅（护椎型-蓝色）",
-            "ImageUrl":"/upload/AppItemInfoImage/74bb8b493f144fadb2edcd005c169683.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/74bb8b493f144fadb2edcd005c169683.jpg",
             "Code":"221158647",
             "SalePrice":569,
             "PriceTag":"",

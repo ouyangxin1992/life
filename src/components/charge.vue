@@ -1,5 +1,5 @@
 <template>
-  <div class="charge">
+  <div class="charge" v-on:click="goCharge">
     <img src="../../static/img/charge.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'charge',
-
+    methods:{
+      goCharge(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

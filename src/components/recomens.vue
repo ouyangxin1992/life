@@ -2,7 +2,7 @@
   <div class="recomens">
     <p class="weekss">Riso.S的精心推荐</p>
     <div class="bigAlls">
-      <div v-for="obj in  riss" ids="obj.ItemInfoId" class="buyss">
+      <div v-for="(obj,index) in  riss" v-on:click="goRecomens(index,obj)" class="buyss">
         <img :src="obj.ImageUrl" alt="">
         <p>{{obj.Name}}</p>
         <div class="parts">
@@ -26,6 +26,13 @@
     data(){
       return{
         riss:true
+      }
+    },
+    methods:{
+      goRecomens(index,obj){
+        this.$router.push({path:"/detailpage",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemInfoId);
+        console.log(localStorage.getItem("getId"))
       }
     },
     created(){

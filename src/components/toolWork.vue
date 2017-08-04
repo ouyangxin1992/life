@@ -1,6 +1,6 @@
 <template>
   <div class="toolWork">
-    <div  v-for="obj in work" ids="obj.ItemInfoId">
+    <div  v-for="(obj,index) in work" v-on:click="goToolWork(index,obj)">
       <img :src="obj.CategoryImageUrl" alt="">
       <p>{{obj.Title}}</p>
     </div>
@@ -14,6 +14,12 @@
     data(){
       return{
         work:true
+      }
+    },
+    methods:{
+      goToolWork(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
       }
     },
     created(){

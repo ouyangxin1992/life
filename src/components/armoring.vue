@@ -1,5 +1,5 @@
 <template>
-  <div class="armoring">
+  <div class="armoring" v-on:click="goArmoring">
     <img src="../../static/img/armoring.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'armoring',
-
+    methods:{
+      goArmoring(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="sell">
-    <div v-for="obj in wares" ids="obj.ItemInfoId">
-      <img :src="obj.ImageUrl" alt="">
+    <div v-for="(obj,index) in wares" ids="obj.ItemInfoId">
+      <img :src="obj.ImageUrl" alt=""  v-on:click="goSell(index,obj)">
       <p>{{obj.Name}}</p>
       <span>￥ {{obj.SalePrice}}</span>
     </div>
@@ -16,6 +16,13 @@
         return{
           wares:true
         }
+    },
+    methods:{
+      goSell(index,obj){
+        this.$router.push({path:"/detailpage",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemInfoId);
+        console.log(localStorage.getItem("getId"))
+      }
     },
     created(){
       var arr1=this

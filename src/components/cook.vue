@@ -1,5 +1,5 @@
 <template>
-  <div class="cook">
+  <div class="cook" v-on:click="goCook">
     <img src="../../static/img/cook.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'cook',
-
+    methods:{
+      goCook(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

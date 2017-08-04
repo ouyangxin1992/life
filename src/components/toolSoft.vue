@@ -1,6 +1,6 @@
 <template>
   <div class="toolSoft">
-    <div  v-for="obj in soft" ids="obj.ItemInfoId">
+    <div  v-for="(obj,index) in soft" v-on:click="goToolSoft(index,obj)">
       <img :src="obj.CategoryImageUrl" alt="">
       <p>{{obj.Title}}</p>
     </div>
@@ -14,6 +14,12 @@
     data(){
       return{
         soft:true
+      }
+    },
+    methods:{
+      goToolSoft(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
       }
     },
     created(){

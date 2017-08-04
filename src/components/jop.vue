@@ -1,5 +1,5 @@
 <template>
-  <div class="jop">
+  <div class="jop" v-on:click="goJop">
     <img src="../../static/img/jop.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'jop',
-
+    methods:{
+      goJop(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

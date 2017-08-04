@@ -22,6 +22,7 @@ import Travel from '@/components/Travel'
 import Know from '@/components/Know'
 
 import detailpage from '@/components/detailpage'
+import listcolumn from '@/components/listcolumn'
 
 Vue.use(Router);
 
@@ -31,6 +32,11 @@ export default new Router({
       path: '/detailpage',
       name: 'detailpage',
       component: detailpage,
+    },
+    {
+      path: '/listcolumn',
+      name: 'listcolumn',
+      component: listcolumn,
     },
     {
       path: '/',

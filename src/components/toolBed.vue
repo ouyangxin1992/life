@@ -1,6 +1,6 @@
 <template>
   <div class="toolBed">
-    <div  v-for="obj in bed" ids="obj.ItemInfoId">
+    <div  v-for="(obj,index) in bed" v-on:click="goToolBed(index,obj)">
       <img :src="obj.CategoryImageUrl" alt="">
       <p>{{obj.Title}}</p>
     </div>
@@ -14,6 +14,12 @@
     data(){
       return{
         bed:true
+      }
+    },
+    methods:{
+      goToolBed(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
       }
     },
     created(){

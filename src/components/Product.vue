@@ -2,7 +2,7 @@
   <div class="product">
       <p class="weeks">最近一周新品</p>
       <div class="bigAll">
-        <div v-for="obj in  newGoods" ids="obj.ItemInfoId" class="buys">
+        <div v-for="(obj,index) in  newGoods" v-on:click="goProduct(obj,index)" class="buys">
           <img :src="obj.ImageUrl" alt="">
           <p>{{obj.Name}}</p>
           <div class="part">
@@ -27,6 +27,13 @@ import axios from"axios"
         return{
           newGoods:true
         }
+    },
+    methods:{
+      goProduct(obj,index){
+        this.$router.push({path:"/detailpage",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemInfoId);
+        console.log(localStorage.getItem("getId"))
+      }
     },
     created(){
         var arr2=this;

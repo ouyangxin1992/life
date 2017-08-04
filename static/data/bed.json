@@ -20,7 +20,7 @@
           {
             "ItemInfoId":23996,
             "Name":"缎纹冰丝席（田园）",
-            "ImageUrl":"/upload/AppItemInfoImage/25d9e04e6b624b0384886ef08e5a1f58.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/25d9e04e6b624b0384886ef08e5a1f58.jpg",
             "Code":"876214651",
             "SalePrice":259,
             "PriceTag":"",
@@ -45,7 +45,7 @@
           {
             "ItemInfoId":24015,
             "Name":"缎纹冰丝席(甜蜜)",
-            "ImageUrl":"/upload/AppItemInfoImage/168ad982deb84d1da94c60691133c84e.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/168ad982deb84d1da94c60691133c84e.jpg",
             "Code":"890127356",
             "SalePrice":199,
             "PriceTag":"",
@@ -70,7 +70,7 @@
           {
             "ItemInfoId":24550,
             "Name":"缎纹冰丝席(竹叶)",
-            "ImageUrl":"/upload/AppItemInfoImage/eec0b6b1ce02442981549f6e2302b816.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/eec0b6b1ce02442981549f6e2302b816.jpg",
             "Code":"8202516715",
             "SalePrice":259,
             "PriceTag":"",
@@ -95,7 +95,7 @@
           {
             "ItemInfoId":24000,
             "Name":"缎纹冰丝席（夏花）",
-            "ImageUrl":"/upload/AppItemInfoImage/340816972a104f508a8959169fb1ecd7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/340816972a104f508a8959169fb1ecd7.jpg",
             "Code":"876214655",
             "SalePrice":259,
             "PriceTag":"",
@@ -120,7 +120,7 @@
           {
             "ItemInfoId":24012,
             "Name":"缎纹冰丝席(枝芽)",
-            "ImageUrl":"/upload/AppItemInfoImage/0d1148bbb5e14389bf6491b80569e788.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0d1148bbb5e14389bf6491b80569e788.jpg",
             "Code":"890127353",
             "SalePrice":199,
             "PriceTag":"",
@@ -145,7 +145,7 @@
           {
             "ItemInfoId":24011,
             "Name":"缎纹冰丝席（羽毛）",
-            "ImageUrl":"/upload/AppItemInfoImage/d3b985082eb94058bf7844805a0024bf.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d3b985082eb94058bf7844805a0024bf.jpg",
             "Code":"890127352",
             "SalePrice":199,
             "PriceTag":"",
@@ -170,7 +170,7 @@
           {
             "ItemInfoId":24549,
             "Name":"缎纹冰丝席(清新)",
-            "ImageUrl":"/upload/AppItemInfoImage/81b4dcbbec384e8fac22f64566e6f9af.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/81b4dcbbec384e8fac22f64566e6f9af.jpg",
             "Code":"8202516714",
             "SalePrice":259,
             "PriceTag":"",
@@ -195,7 +195,7 @@
           {
             "ItemInfoId":23995,
             "Name":"缎纹冰丝席(花朵)",
-            "ImageUrl":"/upload/AppItemInfoImage/f5203ffad20c40c58e61c38a85f4b484.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f5203ffad20c40c58e61c38a85f4b484.jpg",
             "Code":"876214650",
             "SalePrice":259,
             "PriceTag":"",
@@ -220,7 +220,7 @@
           {
             "ItemInfoId":24569,
             "Name":"防螨冰丝席（花开）",
-            "ImageUrl":"/upload/AppItemInfoImage/6e530572c143463c876e76650f5f1d4a.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/6e530572c143463c876e76650f5f1d4a.jpg",
             "Code":"856855041",
             "SalePrice":219,
             "PriceTag":"",
@@ -245,7 +245,7 @@
           {
             "ItemInfoId":24583,
             "Name":"防螨冰丝席(藤蔓)",
-            "ImageUrl":"/upload/AppItemInfoImage/0eb4c5c06aa346c49943a4fb8b6ac5ac.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0eb4c5c06aa346c49943a4fb8b6ac5ac.jpg",
             "Code":"856855040",
             "SalePrice":219,
             "PriceTag":"",
@@ -270,7 +270,7 @@
           {
             "ItemInfoId":24545,
             "Name":"提花藤席(枝藤)",
-            "ImageUrl":"/upload/AppItemInfoImage/9f464a5408924e7d90d11881a369d459.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/9f464a5408924e7d90d11881a369d459.jpg",
             "Code":"865540994",
             "SalePrice":199,
             "PriceTag":"",
@@ -295,7 +295,7 @@
           {
             "ItemInfoId":24535,
             "Name":"夏凉藤席(波浪花)",
-            "ImageUrl":"/upload/AppItemInfoImage/675f6322e3ed4505be804d8e061295e5.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/675f6322e3ed4505be804d8e061295e5.jpg",
             "Code":"826562812",
             "SalePrice":199,
             "PriceTag":"",
@@ -320,7 +320,7 @@
           {
             "ItemInfoId":24539,
             "Name":"夏凉藤席(饼干花)",
-            "ImageUrl":"/upload/AppItemInfoImage/bf40e883fbc2469da000f308cf02113d.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/bf40e883fbc2469da000f308cf02113d.jpg",
             "Code":"843697702",
             "SalePrice":199,
             "PriceTag":"",
@@ -345,7 +345,7 @@
           {
             "ItemInfoId":24606,
             "Name":"冰藤席(浅草)",
-            "ImageUrl":"/upload/AppItemInfoImage/0ec5a31fa25a45418bc315fc8f2bc778.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0ec5a31fa25a45418bc315fc8f2bc778.jpg",
             "Code":"811436660",
             "SalePrice":199,
             "PriceTag":"",
@@ -370,7 +370,7 @@
           {
             "ItemInfoId":24574,
             "Name":"冰藤席（原木）",
-            "ImageUrl":"/upload/AppItemInfoImage/73b5ecb37af4458fa9a18e9e74869d8b.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/73b5ecb37af4458fa9a18e9e74869d8b.jpg",
             "Code":"811436661",
             "SalePrice":199,
             "PriceTag":"",
@@ -395,7 +395,7 @@
           {
             "ItemInfoId":24088,
             "Name":"夏凉藤席(十字花)",
-            "ImageUrl":"/upload/AppItemInfoImage/ef69f6fb5a13429d91cde88b78df0789.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/ef69f6fb5a13429d91cde88b78df0789.jpg",
             "Code":"888441820",
             "SalePrice":239,
             "PriceTag":"",
@@ -420,7 +420,7 @@
           {
             "ItemInfoId":24589,
             "Name":"天然竹麻凉席（郁郁葱葱）",
-            "ImageUrl":"/upload/AppItemInfoImage/20faee0cc87c4a8fad644978b46b7a4f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/20faee0cc87c4a8fad644978b46b7a4f.jpg",
             "Code":"8195730413",
             "SalePrice":369,
             "PriceTag":"",
@@ -445,7 +445,7 @@
           {
             "ItemInfoId":24587,
             "Name":"天然竹麻凉席（盛夏繁花）",
-            "ImageUrl":"/upload/AppItemInfoImage/aac3be6c9acc4671926b7226108d1bd0.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/aac3be6c9acc4671926b7226108d1bd0.jpg",
             "Code":"8195730411",
             "SalePrice":369,
             "PriceTag":"",
@@ -470,7 +470,7 @@
           {
             "ItemInfoId":24588,
             "Name":"天然竹麻凉席(枝繁叶茂)",
-            "ImageUrl":"/upload/AppItemInfoImage/a5d0a04784b44981901250d6f951517d.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/a5d0a04784b44981901250d6f951517d.jpg",
             "Code":"8195730412",
             "SalePrice":369,
             "PriceTag":"",
@@ -495,7 +495,7 @@
           {
             "ItemInfoId":24586,
             "Name":"天然竹麻凉席(绿叶成荫)",
-            "ImageUrl":"/upload/AppItemInfoImage/804b3d9687cd45aab271b531285b9d62.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/804b3d9687cd45aab271b531285b9d62.jpg",
             "Code":"8195730410",
             "SalePrice":369,
             "PriceTag":"",
@@ -520,7 +520,7 @@
           {
             "ItemInfoId":24591,
             "Name":"天然竹麻凉席（甜蜜凤梨）",
-            "ImageUrl":"/upload/AppItemInfoImage/786a7ffb78904987ab48b49353ed09b3.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/786a7ffb78904987ab48b49353ed09b3.jpg",
             "Code":"8195730415",
             "SalePrice":369,
             "PriceTag":"",
@@ -545,7 +545,7 @@
           {
             "ItemInfoId":24584,
             "Name":"天然竹麻凉席（银杏树下）",
-            "ImageUrl":"/upload/AppItemInfoImage/5f86fe7400854042ad8c16ae4bc217bb.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/5f86fe7400854042ad8c16ae4bc217bb.jpg",
             "Code":"819573048",
             "SalePrice":369,
             "PriceTag":"",
@@ -570,7 +570,7 @@
           {
             "ItemInfoId":24585,
             "Name":"天然竹麻凉席(花开蝉鸣)",
-            "ImageUrl":"/upload/AppItemInfoImage/1b2240ef8a5a42838d4f96b048412cae.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/1b2240ef8a5a42838d4f96b048412cae.jpg",
             "Code":"819573049",
             "SalePrice":369,
             "PriceTag":"",
@@ -611,7 +611,7 @@
           {
             "ItemInfoId":25065,
             "Name":"全棉纱布空调毯（云朵）",
-            "ImageUrl":"/upload/AppItemInfoImage/ce05ff1b373d472d853727f9af058911.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/ce05ff1b373d472d853727f9af058911.jpg",
             "Code":"835093156",
             "SalePrice":169,
             "PriceTag":"",
@@ -636,7 +636,7 @@
           {
             "ItemInfoId":24065,
             "Name":"棉麻夏被（生如夏花）",
-            "ImageUrl":"/upload/AppItemInfoImage/e643eace702a499aa126afa688c5ed36.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/e643eace702a499aa126afa688c5ed36.jpg",
             "Code":"867078800",
             "SalePrice":299,
             "PriceTag":"",
@@ -661,7 +661,7 @@
           {
             "ItemInfoId":24068,
             "Name":"棉麻夏被（淡雅格纹）",
-            "ImageUrl":"/upload/AppItemInfoImage/ea92fdfb0c894bfb8bf40e8a8a330d8e.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/ea92fdfb0c894bfb8bf40e8a8a330d8e.jpg",
             "Code":"867078803",
             "SalePrice":299,
             "PriceTag":"",
@@ -686,7 +686,7 @@
           {
             "ItemInfoId":24066,
             "Name":"棉麻夏被(摇曳花枝)",
-            "ImageUrl":"/upload/AppItemInfoImage/b421ad00ab614382ba147a6b94997dec.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/b421ad00ab614382ba147a6b94997dec.jpg",
             "Code":"867078801",
             "SalePrice":299,
             "PriceTag":"",
@@ -711,7 +711,7 @@
           {
             "ItemInfoId":24035,
             "Name":"透气棉夏被(简约风范)",
-            "ImageUrl":"/upload/AppItemInfoImage/b9833222626d484d84f6200dd4898137.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/b9833222626d484d84f6200dd4898137.jpg",
             "Code":"8580397512",
             "SalePrice":239,
             "PriceTag":"",
@@ -736,7 +736,7 @@
           {
             "ItemInfoId":24039,
             "Name":"透气棉夏被(素描时光)",
-            "ImageUrl":"/upload/AppItemInfoImage/4f15a2cd602e4d11b59940fddf9bf1bb.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/4f15a2cd602e4d11b59940fddf9bf1bb.jpg",
             "Code":"8580397518",
             "SalePrice":239,
             "PriceTag":"",
@@ -761,7 +761,7 @@
           {
             "ItemInfoId":24041,
             "Name":"透气棉夏被(轻松假日)",
-            "ImageUrl":"/upload/AppItemInfoImage/bf3e7df1eeb54927b08a1e1441b69a03.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/bf3e7df1eeb54927b08a1e1441b69a03.jpg",
             "Code":"8580397521",
             "SalePrice":239,
             "PriceTag":"",
@@ -786,7 +786,7 @@
           {
             "ItemInfoId":24060,
             "Name":"天丝夏被(温柔粉黛)",
-            "ImageUrl":"/upload/AppItemInfoImage/28f0bc667dd94c2fbbf66efe36d8726f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/28f0bc667dd94c2fbbf66efe36d8726f.jpg",
             "Code":"811825002",
             "SalePrice":299,
             "PriceTag":"",
@@ -811,7 +811,7 @@
           {
             "ItemInfoId":24059,
             "Name":"天丝夏被（仲夏之夜）",
-            "ImageUrl":"/upload/AppItemInfoImage/d67d46341fc84833816042d6eb50b8f4.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d67d46341fc84833816042d6eb50b8f4.jpg",
             "Code":"811825001",
             "SalePrice":299,
             "PriceTag":"",
@@ -836,7 +836,7 @@
           {
             "ItemInfoId":24058,
             "Name":"天丝夏被(梦幻花园)",
-            "ImageUrl":"/upload/AppItemInfoImage/95a51a3b19ce4c1b9a803a4a4c26534b.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/95a51a3b19ce4c1b9a803a4a4c26534b.jpg",
             "Code":"811825000",
             "SalePrice":299,
             "PriceTag":"",
@@ -861,7 +861,7 @@
           {
             "ItemInfoId":24046,
             "Name":"天丝四件套（花开半夏）",
-            "ImageUrl":"/upload/AppItemInfoImage/7c6570760d0e4d11a31068c2960f5d52.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/7c6570760d0e4d11a31068c2960f5d52.jpg",
             "Code":"889991172",
             "SalePrice":399,
             "PriceTag":"",
@@ -886,7 +886,7 @@
           {
             "ItemInfoId":24045,
             "Name":"天丝四件套（红粉佳人）",
-            "ImageUrl":"/upload/AppItemInfoImage/85380255d65448609f4ee5b20e51c35a.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/85380255d65448609f4ee5b20e51c35a.jpg",
             "Code":"889991171",
             "SalePrice":399,
             "PriceTag":"",
@@ -911,7 +911,7 @@
           {
             "ItemInfoId":24052,
             "Name":"天丝四件套（洱海之蓝）",
-            "ImageUrl":"/upload/AppItemInfoImage/684759f1b6f34ecf8e714baf4e515a1f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/684759f1b6f34ecf8e714baf4e515a1f.jpg",
             "Code":"888436630",
             "SalePrice":399,
             "PriceTag":"",
@@ -936,7 +936,7 @@
           {
             "ItemInfoId":24051,
             "Name":"天丝四件套(温暖条纹)",
-            "ImageUrl":"/upload/AppItemInfoImage/3658e770e220407f975ca5dabb204bc3.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/3658e770e220407f975ca5dabb204bc3.jpg",
             "Code":"889991177",
             "SalePrice":429,
             "PriceTag":"",
@@ -977,7 +977,7 @@
           {
             "ItemInfoId":25269,
             "Name":"薰衣草助眠枕",
-            "ImageUrl":"/upload/AppItemInfoImage/a24c23c11e7348d7aec8a973953c6bfa.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/a24c23c11e7348d7aec8a973953c6bfa.jpg",
             "Code":"834313830",
             "SalePrice":69,
             "PriceTag":"新",
@@ -1002,7 +1002,7 @@
           {
             "ItemInfoId":25232,
             "Name":"鹅毛护颈安睡枕",
-            "ImageUrl":"/upload/AppItemInfoImage/55e3dc4bdc8f45d18e9b6011be79270e.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/55e3dc4bdc8f45d18e9b6011be79270e.jpg",
             "Code":"867771320",
             "SalePrice":99,
             "PriceTag":"新",
@@ -1027,7 +1027,7 @@
           {
             "ItemInfoId":24467,
             "Name":"泰国进口天然乳胶枕(深睡型)",
-            "ImageUrl":"/upload/AppItemInfoImage/f0d383658fe34f6eacbfa61507dd8868.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f0d383658fe34f6eacbfa61507dd8868.jpg",
             "Code":"870598580",
             "SalePrice":149,
             "PriceTag":"",
@@ -1052,7 +1052,7 @@
           {
             "ItemInfoId":24466,
             "Name":"泰国进口天然乳胶枕(标准型)",
-            "ImageUrl":"/upload/AppItemInfoImage/843e4d46970c4fbf872b6ac5935e3538.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/843e4d46970c4fbf872b6ac5935e3538.jpg",
             "Code":"830171710",
             "SalePrice":149,
             "PriceTag":"",
@@ -1077,7 +1077,7 @@
           {
             "ItemInfoId":22083,
             "Name":"进口天然乳胶枕(透气型)",
-            "ImageUrl":"/upload/AppItemInfoImage/2416e4a7855e47b1bf94cfe49c780f9d.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/2416e4a7855e47b1bf94cfe49c780f9d.jpg",
             "Code":"812693061",
             "SalePrice":129,
             "PriceTag":"",
@@ -1102,7 +1102,7 @@
           {
             "ItemInfoId":22084,
             "Name":"进口天然乳胶枕(按摩型)",
-            "ImageUrl":"/upload/AppItemInfoImage/53bc1befefcf43438cc7b07ae2dd9fd7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/53bc1befefcf43438cc7b07ae2dd9fd7.jpg",
             "Code":"816493960",
             "SalePrice":129,
             "PriceTag":"",
@@ -1127,7 +1127,7 @@
           {
             "ItemInfoId":24468,
             "Name":"太空记忆护颈枕(深睡型)",
-            "ImageUrl":"/upload/AppItemInfoImage/2ea7ed58c77b40f6b5cc646cb82695b5.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/2ea7ed58c77b40f6b5cc646cb82695b5.jpg",
             "Code":"889724290",
             "SalePrice":99,
             "PriceTag":"",
@@ -1152,7 +1152,7 @@
           {
             "ItemInfoId":21982,
             "Name":"德国拜耳太空记忆护颈枕",
-            "ImageUrl":"/upload/AppItemInfoImage/82f4fbeba0564c45959efe5ac67abe47.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/82f4fbeba0564c45959efe5ac67abe47.jpg",
             "Code":"873388630",
             "SalePrice":99,
             "PriceTag":"",
@@ -1177,7 +1177,7 @@
           {
             "ItemInfoId":23282,
             "Name":"太空记忆护颈枕(竹炭抑菌)",
-            "ImageUrl":"/upload/AppItemInfoImage/162b980a67f849359973b9243a82aede.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/162b980a67f849359973b9243a82aede.jpg",
             "Code":"850553250",
             "SalePrice":99,
             "PriceTag":"",
@@ -1202,7 +1202,7 @@
           {
             "ItemInfoId":24462,
             "Name":"太空记忆安睡枕",
-            "ImageUrl":"/upload/AppItemInfoImage/91b63b53ceef4e6e87b5822acd72b6d4.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/91b63b53ceef4e6e87b5822acd72b6d4.jpg",
             "Code":"894675901",
             "SalePrice":99,
             "PriceTag":"",
@@ -1243,7 +1243,7 @@
           {
             "ItemInfoId":25257,
             "Name":"席梦思保护套（清新系列）",
-            "ImageUrl":"/upload/AppItemInfoImage/5582916be1844f37b19a593f58cf6aa6.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/5582916be1844f37b19a593f58cf6aa6.jpg",
             "Code":"8932021114",
             "SalePrice":99,
             "PriceTag":"新",
@@ -1268,7 +1268,7 @@
           {
             "ItemInfoId":23657,
             "Name":"席梦思保护套",
-            "ImageUrl":"/upload/AppItemInfoImage/f78ca4a83bab4507ae8c8ea8c82cb416.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f78ca4a83bab4507ae8c8ea8c82cb416.jpg",
             "Code":"859245892",
             "SalePrice":129,
             "PriceTag":"",
@@ -1293,7 +1293,7 @@
           {
             "ItemInfoId":24034,
             "Name":"防螨防尘席梦思保护套（杜邦面料）",
-            "ImageUrl":"/upload/AppItemInfoImage/f045f0f53163402582812c6f45f96acf.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f045f0f53163402582812c6f45f96acf.jpg",
             "Code":"875490931",
             "SalePrice":199,
             "PriceTag":"",
@@ -1318,7 +1318,7 @@
           {
             "ItemInfoId":25259,
             "Name":"席梦思保护套(梦幻系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/b30c70a4e2d84ac48816262804cd36c7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/b30c70a4e2d84ac48816262804cd36c7.jpg",
             "Code":"893202110",
             "SalePrice":99,
             "PriceTag":"新",
@@ -1359,7 +1359,7 @@
           {
             "ItemInfoId":25069,
             "Name":"乳胶床褥垫",
-            "ImageUrl":"/upload/AppItemInfoImage/8e8a42aa55c64b2dae3700f5b4b4e3d6.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/8e8a42aa55c64b2dae3700f5b4b4e3d6.jpg",
             "Code":"833793680",
             "SalePrice":499,
             "PriceTag":"",
@@ -1384,7 +1384,7 @@
           {
             "ItemInfoId":24333,
             "Name":"椰棕护椎席梦思",
-            "ImageUrl":"/upload/AppItemInfoImage/9dff3116366d4476b9f22d39e5cc0126.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/9dff3116366d4476b9f22d39e5cc0126.jpg",
             "Code":"806473820",
             "SalePrice":999,
             "PriceTag":"",
@@ -1409,7 +1409,7 @@
           {
             "ItemInfoId":24335,
             "Name":"进口乳胶护椎席梦思",
-            "ImageUrl":"/upload/AppItemInfoImage/148d40f3cf2741c58f9c09ba541d0ace.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/148d40f3cf2741c58f9c09ba541d0ace.jpg",
             "Code":"891728690",
             "SalePrice":1999,
             "PriceTag":"",
@@ -1434,7 +1434,7 @@
           {
             "ItemInfoId":24337,
             "Name":"进口乳胶护椎席梦思（双层分区）",
-            "ImageUrl":"/upload/AppItemInfoImage/46bce7acc24c4d5ca782d53b88f6bc9c.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/46bce7acc24c4d5ca782d53b88f6bc9c.jpg",
             "Code":"831058070",
             "SalePrice":2999,
             "PriceTag":"",
@@ -1475,7 +1475,7 @@
           {
             "ItemInfoId":25191,
             "Name":"全棉舒适四件套(绵羊)",
-            "ImageUrl":"/upload/AppItemInfoImage/5bcd664da38e459aa7cf2e8c2c2542ab.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/5bcd664da38e459aa7cf2e8c2c2542ab.jpg",
             "Code":"815743936",
             "SalePrice":279,
             "PriceTag":"新",
@@ -1500,7 +1500,7 @@
           {
             "ItemInfoId":24870,
             "Name":"全棉舒适四件套（童话）",
-            "ImageUrl":"/upload/AppItemInfoImage/e30b83eb5b16458bb30a448d46b78bfa.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/e30b83eb5b16458bb30a448d46b78bfa.jpg",
             "Code":"896112964",
             "SalePrice":319,
             "PriceTag":"",
@@ -1525,7 +1525,7 @@
           {
             "ItemInfoId":24868,
             "Name":"全棉舒适四件套（飞羽）",
-            "ImageUrl":"/upload/AppItemInfoImage/23c9edc840c94bce9ff0e74141b4f880.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/23c9edc840c94bce9ff0e74141b4f880.jpg",
             "Code":"896112962",
             "SalePrice":279,
             "PriceTag":"",
@@ -1550,7 +1550,7 @@
           {
             "ItemInfoId":24849,
             "Name":"全棉舒适四件套（清新）",
-            "ImageUrl":"/upload/AppItemInfoImage/4017a20da8254806ba9977162938fa88.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/4017a20da8254806ba9977162938fa88.jpg",
             "Code":"8961129620",
             "SalePrice":279,
             "PriceTag":"",
@@ -1575,7 +1575,7 @@
           {
             "ItemInfoId":24485,
             "Name":"全棉舒适四件套（森林）",
-            "ImageUrl":"/upload/AppItemInfoImage/4cc4e8d1fedb48338055045549e2cd11.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/4cc4e8d1fedb48338055045549e2cd11.jpg",
             "Code":"8306553126",
             "SalePrice":279,
             "PriceTag":"",
@@ -1600,7 +1600,7 @@
           {
             "ItemInfoId":24483,
             "Name":"全棉舒适四件套（飞翔）",
-            "ImageUrl":"/upload/AppItemInfoImage/d7f5bc0515444f38978a410d47c5c6e6.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d7f5bc0515444f38978a410d47c5c6e6.jpg",
             "Code":"8306553120",
             "SalePrice":279,
             "PriceTag":"",
@@ -1625,7 +1625,7 @@
           {
             "ItemInfoId":24448,
             "Name":"全棉柔丝贡缎床品（蓝灰/浅棕）",
-            "ImageUrl":"/upload/AppItemInfoImage/04b10eef706f407aa8ecccb7c0a65ece.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/04b10eef706f407aa8ecccb7c0a65ece.jpg",
             "Code":"832084534",
             "SalePrice":110,
             "PriceTag":"",
@@ -1650,7 +1650,7 @@
           {
             "ItemInfoId":24450,
             "Name":"全棉柔丝贡缎床品（深灰/米色）",
-            "ImageUrl":"/upload/AppItemInfoImage/9187ed8605814cadb7825e2c9fdbf56e.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/9187ed8605814cadb7825e2c9fdbf56e.jpg",
             "Code":"832084536",
             "SalePrice":110,
             "PriceTag":"",
@@ -1675,7 +1675,7 @@
           {
             "ItemInfoId":24444,
             "Name":"全棉柔丝贡缎床品（藏青/浅灰）",
-            "ImageUrl":"/upload/AppItemInfoImage/5d7020f596ad4518a4d91f0f7d7bd17a.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/5d7020f596ad4518a4d91f0f7d7bd17a.jpg",
             "Code":"832084530",
             "SalePrice":110,
             "PriceTag":"",
@@ -1700,7 +1700,7 @@
           {
             "ItemInfoId":24446,
             "Name":"全棉柔丝贡缎床品（浅绿/深绿）",
-            "ImageUrl":"/upload/AppItemInfoImage/20bb076dfcb647a6aece1c601a23418d.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/20bb076dfcb647a6aece1c601a23418d.jpg",
             "Code":"832084532",
             "SalePrice":110,
             "PriceTag":"",
@@ -1725,7 +1725,7 @@
           {
             "ItemInfoId":21340,
             "Name":"法国亚麻透气四件套",
-            "ImageUrl":"/upload/AppItemInfoImage/c3b4dcca62dc40fe89aff1d18025fbe9.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/c3b4dcca62dc40fe89aff1d18025fbe9.jpg",
             "Code":"842445380",
             "SalePrice":599,
             "PriceTag":"",
@@ -1750,7 +1750,7 @@
           {
             "ItemInfoId":24718,
             "Name":"全棉舒适四件套（英伦格纹）",
-            "ImageUrl":"/upload/AppItemInfoImage/c078588b6e6b403e8cc7bd96dda55cce.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/c078588b6e6b403e8cc7bd96dda55cce.jpg",
             "Code":"883499830",
             "SalePrice":279,
             "PriceTag":"",
@@ -1775,7 +1775,7 @@
           {
             "ItemInfoId":24313,
             "Name":"纯棉四件套(潮流渐变)",
-            "ImageUrl":"/upload/AppItemInfoImage/f9f324ce3e78419fa403072af2f172e0.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f9f324ce3e78419fa403072af2f172e0.jpg",
             "Code":"821037483",
             "SalePrice":369,
             "PriceTag":"",
@@ -1800,7 +1800,7 @@
           {
             "ItemInfoId":23974,
             "Name":"纯棉四件套（格伦）",
-            "ImageUrl":"/upload/AppItemInfoImage/ee7508461093493bb26d420efab558b7.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/ee7508461093493bb26d420efab558b7.jpg",
             "Code":"808959382",
             "SalePrice":399,
             "PriceTag":"",
@@ -1825,7 +1825,7 @@
           {
             "ItemInfoId":23973,
             "Name":"纯棉四件套（亚丁）",
-            "ImageUrl":"/upload/AppItemInfoImage/93861cf235f64c36b27666a443c16245.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/93861cf235f64c36b27666a443c16245.jpg",
             "Code":"808959381",
             "SalePrice":399,
             "PriceTag":"",
@@ -1875,7 +1875,7 @@
           {
             "ItemInfoId":23068,
             "Name":"透气棉大靠垫(云朵系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/0a4d10dcf83d4812ab0480ae0b76e241.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/0a4d10dcf83d4812ab0480ae0b76e241.jpg",
             "Code":"80585145",
             "SalePrice":69,
             "PriceTag":"",
@@ -1900,7 +1900,7 @@
           {
             "ItemInfoId":23065,
             "Name":"透气棉大靠垫(羽毛系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/365b4a08dc184ec2afbbcd03eaa27e80.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/365b4a08dc184ec2afbbcd03eaa27e80.jpg",
             "Code":"86034087",
             "SalePrice":69,
             "PriceTag":"",
@@ -1941,7 +1941,7 @@
           {
             "ItemInfoId":24511,
             "Name":"60S长绒棉四件套（湖水蓝）",
-            "ImageUrl":"/upload/AppItemInfoImage/dc3428b104304400b5e82ccdfa1a7ec9.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/dc3428b104304400b5e82ccdfa1a7ec9.jpg",
             "Code":"834274187",
             "SalePrice":699,
             "PriceTag":"",
@@ -1966,7 +1966,7 @@
           {
             "ItemInfoId":24508,
             "Name":"60S长绒棉四件套（樱花粉）",
-            "ImageUrl":"/upload/AppItemInfoImage/9dc242cd81554266b36306032383fa9a.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/9dc242cd81554266b36306032383fa9a.jpg",
             "Code":"834274184",
             "SalePrice":699,
             "PriceTag":"",
@@ -1991,7 +1991,7 @@
           {
             "ItemInfoId":24510,
             "Name":"60S长绒棉四件套（丁香紫）",
-            "ImageUrl":"/upload/AppItemInfoImage/d10196d41c1c468ab8f3b1c5d501f68b.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d10196d41c1c468ab8f3b1c5d501f68b.jpg",
             "Code":"834274186",
             "SalePrice":699,
             "PriceTag":"",
@@ -2016,7 +2016,7 @@
           {
             "ItemInfoId":24512,
             "Name":"60S柔丝长绒棉四件套(晴空蓝)",
-            "ImageUrl":"/upload/AppItemInfoImage/1e265b881bd541dca0f516cbdd2d7710.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/1e265b881bd541dca0f516cbdd2d7710.jpg",
             "Code":"834274188",
             "SalePrice":699,
             "PriceTag":"",
@@ -2041,7 +2041,7 @@
           {
             "ItemInfoId":24218,
             "Name":"60S长绒棉四件套（米兰风尚）",
-            "ImageUrl":"/upload/AppItemInfoImage/a1764b9a671b42f48682abf587686ac3.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/a1764b9a671b42f48682abf587686ac3.jpg",
             "Code":"876120554",
             "SalePrice":699,
             "PriceTag":"",
@@ -2066,7 +2066,7 @@
           {
             "ItemInfoId":24112,
             "Name":"60S长绒棉四件套（梦幻庄园）",
-            "ImageUrl":"/upload/AppItemInfoImage/18c76f74c9494001bec215c41ca0f0ef.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/18c76f74c9494001bec215c41ca0f0ef.jpg",
             "Code":"855639040",
             "SalePrice":699,
             "PriceTag":"",
@@ -2091,7 +2091,7 @@
           {
             "ItemInfoId":24221,
             "Name":"60S长绒棉四件套（温莎回忆）",
-            "ImageUrl":"/upload/AppItemInfoImage/4cc8f1fb63674a7694fdedd259165de8.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/4cc8f1fb63674a7694fdedd259165de8.jpg",
             "Code":"876120557",
             "SalePrice":699,
             "PriceTag":"",
@@ -2116,7 +2116,7 @@
           {
             "ItemInfoId":24219,
             "Name":"60S长绒棉四件套（费城印象）",
-            "ImageUrl":"/upload/AppItemInfoImage/692f145fcc4149019b326efc464c2641.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/692f145fcc4149019b326efc464c2641.jpg",
             "Code":"876120555",
             "SalePrice":699,
             "PriceTag":"",
@@ -2141,7 +2141,7 @@
           {
             "ItemInfoId":24113,
             "Name":"60S长绒棉四件套（加州花语）",
-            "ImageUrl":"/upload/AppItemInfoImage/64eaa4f49d9648ba957a0260cc7480fe.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/64eaa4f49d9648ba957a0260cc7480fe.jpg",
             "Code":"855639041",
             "SalePrice":699,
             "PriceTag":"",
@@ -2166,7 +2166,7 @@
           {
             "ItemInfoId":24220,
             "Name":"60S长绒棉四件套（格调条纹）",
-            "ImageUrl":"/upload/AppItemInfoImage/b6aa1ffb80994750a114c13c2a6a38e0.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/b6aa1ffb80994750a114c13c2a6a38e0.jpg",
             "Code":"876120556",
             "SalePrice":699,
             "PriceTag":"",
@@ -2191,7 +2191,7 @@
           {
             "ItemInfoId":23674,
             "Name":"丝棉提花四件套(伯爵系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/8beb7d95956041d7af7557a5fda32d5c.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/8beb7d95956041d7af7557a5fda32d5c.jpg",
             "Code":"802448270",
             "SalePrice":749,
             "PriceTag":"",
@@ -2216,7 +2216,7 @@
           {
             "ItemInfoId":25054,
             "Name":"丝棉提花四件套（典雅系列）",
-            "ImageUrl":"/upload/AppItemInfoImage/1a86c9ba25f9439da142d85b11ca2ccc.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/1a86c9ba25f9439da142d85b11ca2ccc.jpg",
             "Code":"869460646",
             "SalePrice":749,
             "PriceTag":"",
@@ -2241,7 +2241,7 @@
           {
             "ItemInfoId":23676,
             "Name":"丝棉提花四件套(新贵系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/667b6e755bec41d58c1e560262b1c760.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/667b6e755bec41d58c1e560262b1c760.jpg",
             "Code":"802448272",
             "SalePrice":749,
             "PriceTag":"",
@@ -2266,7 +2266,7 @@
           {
             "ItemInfoId":23682,
             "Name":"丝棉提花四件套(皇室系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/bb26ecdbc6d449428e66934b9bc6a84b.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/bb26ecdbc6d449428e66934b9bc6a84b.jpg",
             "Code":"802448278",
             "SalePrice":749,
             "PriceTag":"",
@@ -2291,7 +2291,7 @@
           {
             "ItemInfoId":23680,
             "Name":"丝棉提花四件套(浓情系列)",
-            "ImageUrl":"/upload/AppItemInfoImage/c829f73a23e141bf88737ecad7c8d02f.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/c829f73a23e141bf88737ecad7c8d02f.jpg",
             "Code":"802448276",
             "SalePrice":749,
             "PriceTag":"",
@@ -2316,7 +2316,7 @@
           {
             "ItemInfoId":24226,
             "Name":"丝棉提花四件套（贵族系列）",
-            "ImageUrl":"/upload/AppItemInfoImage/8b2ad6349a16407a960416512fefd113.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/8b2ad6349a16407a960416512fefd113.jpg",
             "Code":"882666761",
             "SalePrice":749,
             "PriceTag":"",
@@ -2341,7 +2341,7 @@
           {
             "ItemInfoId":24297,
             "Name":"丝棉提花四件套（晨影系列）",
-            "ImageUrl":"/upload/AppItemInfoImage/5080f2f3c5ea4f829b180b0f1cde93eb.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/5080f2f3c5ea4f829b180b0f1cde93eb.jpg",
             "Code":"849948854",
             "SalePrice":749,
             "PriceTag":"",
@@ -2366,7 +2366,7 @@
           {
             "ItemInfoId":23966,
             "Name":"丝棉提花四件套（奢华系列）",
-            "ImageUrl":"/upload/AppItemInfoImage/316379c6d7fe400a86158f7b29bd2b31.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/316379c6d7fe400a86158f7b29bd2b31.jpg",
             "Code":"882666760",
             "SalePrice":749,
             "PriceTag":"",
@@ -2391,7 +2391,7 @@
           {
             "ItemInfoId":24227,
             "Name":"丝棉提花四件套（复古系列）",
-            "ImageUrl":"/upload/AppItemInfoImage/f24c1628ec3246f8b489925004d1bc22.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/f24c1628ec3246f8b489925004d1bc22.jpg",
             "Code":"882666762",
             "SalePrice":749,
             "PriceTag":"",
@@ -2416,7 +2416,7 @@
           {
             "ItemInfoId":24228,
             "Name":"丝棉提花四件套（倾城系列）",
-            "ImageUrl":"/upload/AppItemInfoImage/d7a61663800d4ba4bed758ca6cd6e289.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/d7a61663800d4ba4bed758ca6cd6e289.jpg",
             "Code":"882666763",
             "SalePrice":749,
             "PriceTag":"",
@@ -2457,7 +2457,7 @@
           {
             "ItemInfoId":24865,
             "Name":"全棉柔丝贡缎四件套（春意）",
-            "ImageUrl":"/upload/AppItemInfoImage/63cad53374b044e0b2d86b39f774c747.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/63cad53374b044e0b2d86b39f774c747.jpg",
             "Code":"8961129615",
             "SalePrice":369,
             "PriceTag":"",
@@ -2498,7 +2498,7 @@
           {
             "ItemInfoId":24471,
             "Name":"婚庆大提花绣花六件套（永结同心）",
-            "ImageUrl":"/upload/AppItemInfoImage/1b1dce32361b441f9c47a027d65cacd3.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/1b1dce32361b441f9c47a027d65cacd3.jpg",
             "Code":"866995192",
             "SalePrice":999,
             "PriceTag":"",
@@ -2523,7 +2523,7 @@
           {
             "ItemInfoId":24476,
             "Name":"婚庆大提花四件套（花开富贵）",
-            "ImageUrl":"/upload/AppItemInfoImage/1cc2f33153c74bc38413c4aeebe6e1aa.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/1cc2f33153c74bc38413c4aeebe6e1aa.jpg",
             "Code":"866995197",
             "SalePrice":629,
             "PriceTag":"",
@@ -2564,7 +2564,7 @@
           {
             "ItemInfoId":24494,
             "Name":"舒爽春秋被（100%澳毛）",
-            "ImageUrl":"/upload/AppItemInfoImage/682ac46c2f7a4119bbfe54833e0668ac.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/682ac46c2f7a4119bbfe54833e0668ac.jpg",
             "Code":"850145780",
             "SalePrice":349,
             "PriceTag":"",
@@ -2589,7 +2589,7 @@
           {
             "ItemInfoId":23589,
             "Name":"舒爽春秋被（100%桑蚕丝）",
-            "ImageUrl":"/upload/AppItemInfoImage/90068c051c4f4ff38371b9b925b6b0dc.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/90068c051c4f4ff38371b9b925b6b0dc.jpg",
             "Code":"840809760",
             "SalePrice":799,
             "PriceTag":"",
@@ -2614,7 +2614,7 @@
           {
             "ItemInfoId":24158,
             "Name":"四季子母被（澳毛+羽丝绒）",
-            "ImageUrl":"/upload/AppItemInfoImage/50dd5d916b424eeaad19215571505114.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/50dd5d916b424eeaad19215571505114.jpg",
             "Code":"846038620",
             "SalePrice":599,
             "PriceTag":"",
@@ -2639,7 +2639,7 @@
           {
             "ItemInfoId":24156,
             "Name":"四季子母被（蚕丝+羽丝绒）",
-            "ImageUrl":"/upload/AppItemInfoImage/af24af095d4e4f42959e878f919b883a.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/af24af095d4e4f42959e878f919b883a.jpg",
             "Code":"800413000",
             "SalePrice":599,
             "PriceTag":"",
@@ -2664,7 +2664,7 @@
           {
             "ItemInfoId":22677,
             "Name":"四季子母被（蚕丝+澳毛）",
-            "ImageUrl":"/upload/AppItemInfoImage/61d64a6f90894b90961d0cb5b3230c55.jpg",
+            "ImageUrl":"http://i.lifevccdn.com/upload/AppItemInfoImage/61d64a6f90894b90961d0cb5b3230c55.jpg",
             "Code":"827914901",
             "SalePrice":899,
             "PriceTag":"",

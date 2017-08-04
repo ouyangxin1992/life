@@ -1,6 +1,6 @@
 <template>
   <div class="tools">
-  <div  v-for="obj in instrument" ids="obj.ItemInfoId">
+  <div  v-for="(obj,index) in instrument" v-on:click="goTools(index,obj)">
     <img :src="obj.CategoryImageUrl" alt="">
     <p>{{obj.Title}}</p>
   </div>
@@ -16,11 +16,16 @@
         instrument:true
       }
     },
+    methods:{
+      goTools(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
+      }
+    },
     created(){
       var arr3=this;
       axios.get("../../static/data/chore.json").then(function (data) {
         arr3.instrument=data.data.InnerData.Categories;
-        console.log(data.data.InnerData.Categories)
       }).catch(function (err) {
         console.log(err)
       })

@@ -1,5 +1,5 @@
 <template>
-  <div class="housework">
+  <div class="housework" v-on:click="goHousework">
     <img src="../../static/img/housework.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'housework',
-
+    methods:{
+      goHousework(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

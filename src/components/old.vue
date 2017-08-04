@@ -1,5 +1,5 @@
 <template>
-  <div class="old">
+  <div class="old" v-on:click="goOld">
     <img src="../../static/img/oldmember.jpg" alt="">
   </div>
 </template>
@@ -8,7 +8,11 @@
 
   export default {
     name: 'old',
-
+    methods:{
+      goOld(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 

@@ -2,9 +2,9 @@
   <div>
     <p class="allIn">家居服</p>
     <div class="clothing">
-      <div  v-for="obj in clothing" >
-        <img :src="obj.Icon" alt="">
-        <p>{{obj.Name}}</p>
+      <div  v-for="(obj,index) in clothing" v-on:click="goClothing(index,obj)">
+        <img :src="obj.CategoryImageUrl" alt="">
+        <p>{{obj.Title}}</p>
       </div>
     </div>
   </div>
@@ -19,11 +19,16 @@
         clothing:true
       }
     },
+    methods:{
+      goClothing(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
+      }
+    },
     created(){
-      var ar1=this;
-      axios.get("../../static/data/all.json").then(function (data) {
-        ar1.clothing=data.data.InnerData[2].Children;
-
+      var arr4=this;
+      axios.get("../../static/data/dress.json").then(function (data) {
+        arr4.clothing=data.data.InnerData.Categories;
       }).catch(function (err) {
         console.log(err)
       })

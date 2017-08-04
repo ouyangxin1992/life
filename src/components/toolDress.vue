@@ -1,6 +1,6 @@
 <template>
   <div class="toolDress">
-    <div  v-for="obj in base" ids="obj.ItemInfoId">
+    <div  v-for="(obj,index) in base" v-on:click="goToolDress(index,obj)">
       <img :src="obj.CategoryImageUrl" alt="">
       <p>{{obj.Title}}</p>
     </div>
@@ -14,6 +14,12 @@
     data(){
       return{
         base:true
+      }
+    },
+    methods:{
+      goToolDress(index,obj){
+        this.$router.push({path:"/listcolumn",query:{id:index}});
+        localStorage.setItem("getId",obj.ItemIndexId);
       }
     },
     created(){

@@ -1,6 +1,6 @@
 <template>
-  <div class="card">
-    <img src="../../static/img/100card.jpg" alt="">
+  <div class="card" v-on:click="goCard">
+    <img src="../../static/img/100card.jpg" alt="" >
   </div>
 </template>
 
@@ -8,7 +8,11 @@
 
   export default {
     name: 'card',
-
+    methods:{
+      goCard(){
+        this.$router.push({path:"/detailpage"})
+      }
+    }
   }
 </script>
 
