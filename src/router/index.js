@@ -24,6 +24,10 @@ import Know from '@/components/Know'
 import detailpage from '@/components/detailpage'
 import listcolumn from '@/components/listcolumn'
 
+import recommend from '@/components/recommend'
+import standards from '@/components/standards'
+import discuss from '@/components/discuss'
+
 Vue.use(Router);
 
 export default new Router({
@@ -32,6 +36,23 @@ export default new Router({
       path: '/detailpage',
       name: 'detailpage',
       component: detailpage,
+      children:[
+        {
+          path: 'recommend',
+          name: 'recommend',
+          component: recommend,
+        },
+        {
+          path: 'standards',
+          name: 'standards',
+          component: standards,
+        },
+        {
+          path: 'discuss',
+          name: 'discuss',
+          component: discuss,
+        }
+      ]
     },
     {
       path: '/listcolumn',

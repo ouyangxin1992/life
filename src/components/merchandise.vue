@@ -14,9 +14,9 @@
           <p>
               <span class="priceSin">{{item.price}}</span>
           <span class="control">
-            <span v-on:click="cut(item.id)">-</span>
+            <span v-on:click="cut(item.id)"> - </span>
             <span class="count">{{item.num}}</span>
-            <span v-on:click="joins(item.id)">+</span>
+            <span v-on:click="joins(item.id)"> + </span>
           </span>
             <span style="margin-right:10%" v-on:click="dels(item.id)">删除</span>
           </p>
@@ -206,7 +206,6 @@
   .control{
     margin-left:35%;
     display: inline-block;
-    font-size: 0;
   }
   .control span:nth-child(1){
     display: inline-block;

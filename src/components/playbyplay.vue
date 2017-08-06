@@ -15,6 +15,18 @@
          送至：
          <a  class="btn btn-info btn-lg active" role="button" id="sel_city"  @click="citySlect">选取配送城市</a>
        </div>
+       <p class="free">新会员首单，满69元免运费</p>
+       <img src="../../static/img/500fen.jpg" alt="" class="fen">
+       <img src="../../static/img/6year.jpg" alt="" class="year">
+       <!--路由切换-->
+       <div class="threeTab">
+         <div  v-for="obj in threeList">
+           <router-link :to='obj.to' :class='obj.cla' :activeClass='obj.activeCla'>
+             {{obj.title}}
+          </router-link>
+         </div>
+       </div>
+       <router-view></router-view>
      </div>
     <!--加入购物车-->
     <addcar></addcar>
@@ -32,8 +44,32 @@
       return{
         arr:true,
         circumstantial:true,
+        threeList:[
+          {
+            to:'/detailpage/recommend',
+            title:'商品介绍',
+            cla:'recommendCla',
+            activeCla:"recommendActive"
+          },
+          {
+            to:'/detailpage/standards',
+            title:'规格参数',
+            cla:'standardsCla',
+            activeCla:"standardsActive"
+          },
+          {
+            to:'/detailpage/discuss',
+            title:'评论',
+            cla:'discussCla',
+            activeCla:"discussActive"
+          },
+          ]
       }
     },
+//    created(){
+//      //	页面默认打开热卖页面
+//      this.$router.push('/detailpage/recommend');
+//    },
     mounted(){
       this.arr=this.$route.query.id;
     },
@@ -616,5 +652,49 @@
   .add{
     background-color: #e6e6e6;
   }
-
+  .free{
+    line-height: 3rem;
+    color: red;
+    text-align: center;
+  }
+  .fen{
+    width: 100%;
+    height: 10rem;
+  }
+  .year{
+    width: 100%;
+    height: 14rem;
+  }
+  .threeTab{
+    width: 100%;
+    line-height: 3rem;
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  .threeTab div{
+    width: 33%;
+    height: 2rem;
+    text-align: center;
+  }
+  .threeTab div a{
+    display: inline-block;
+    width: 60%;
+    height: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2rem;
+  }
+  .threeTab div .recommendActive{
+     color: white;
+     background-color: green;
+   }
+  .threeTab div .standardsActive{
+    color: white;
+    background-color: green;
+  }
+  .threeTab div .discussActive{
+    color: white;
+    background-color: green;
+  }
 </style>
