@@ -12,7 +12,7 @@
 </template>
 
 <script>
-
+  import axios from 'axios';
   export default {
     name: 'backdrop',
     methods:{
@@ -112,34 +112,40 @@
           inp3.onclick=function () {
              var tels=localStorage.getItem("tels");
              var keys=localStorage.getItem("keys");
-             if(tels===inp1.value && keys===inp2.value){
-               latent.style.display="block";
-               dv0.style.display="none";
-               var logoIn=document.querySelector(".logoIn");
-               logoIn.innerHTML=localStorage.getItem("tels");
-               var aboutLogo=document.querySelector(".aboutLogo");
-               aboutLogo.style.display="none";
-               var detrusion=document.querySelector(".detrusion");
-               detrusion.style.display="block";
-             }else{
-               var divas=document.createElement("div");
-               divas.style.width="50%";
-               divas.style.height="50px";
-               divas.style.backgroundColor="rgba(0,0,0,0.5)";
-               divas.style.borderRadius="10px";
-               divas.style.lineHeight="50px";
-               divas.style.textAlign="center";
-               divas.style.color="white";
-               divas.style.position="absolute";
-               divas.style.top="200px";
-               divas.style.left="25%";
-               divas.innerHTML="请输入正确信息";
-               document.body.appendChild(divas);
-               divas.onclick=function () {
-                 divas.style.display="none";
-               };
-               return;
-             }
+             var that=this;
+            axios.get("http://localhost:5500/my-user/").then(function (res) {
+                that.user=res.data;
+                for (var m=0;m<that.user.length;m++){
+                  if(that.user[m].tel==inp1.value && that.user[m].password==inp2.value){
+                    latent.style.display="block";
+                    dv0.style.display="none";
+                    var logoIn=document.querySelector(".logoIn");
+                    logoIn.innerHTML=localStorage.getItem("tels");
+                    var aboutLogo=document.querySelector(".aboutLogo");
+                    aboutLogo.style.display="none";
+                    var detrusion=document.querySelector(".detrusion");
+                    detrusion.style.display="block";
+                  }else{
+                    var divas=document.createElement("div");
+                    divas.style.width="50%";
+                    divas.style.height="50px";
+                    divas.style.backgroundColor="rgba(0,0,0,0.5)";
+                    divas.style.borderRadius="10px";
+                    divas.style.lineHeight="50px";
+                    divas.style.textAlign="center";
+                    divas.style.color="white";
+                    divas.style.position="absolute";
+                    divas.style.top="200px";
+                    divas.style.left="25%";
+                    divas.innerHTML="请输入正确信息";
+                    document.body.appendChild(divas);
+                    divas.onclick=function () {
+                      divas.style.display="none";
+                    };
+                    return;
+                  }
+                }
+            })
           }
         },
         newLogo(){
@@ -324,14 +330,19 @@
             if(inp1.value && inp2.value && inp4.value){
               localStorage.setItem("tels",inp1.value);
               localStorage.setItem("keys",inp2.value);
-              latent.style.display="block";
-              dv0.style.display="none";
-              var logoIn=document.querySelector(".logoIn");
-              logoIn.innerHTML=localStorage.getItem("tels");
-              var aboutLogo=document.querySelector(".aboutLogo");
-              aboutLogo.style.display="none";
-              var detrusion=document.querySelector(".detrusion");
-              detrusion.style.display="block";
+              axios.post("http://localhost:5500/my-user",{
+                tel:inp1.value,
+                password:inp2.value
+              }).then(function (res) {
+                latent.style.display="block";
+                dv0.style.display="none";
+                var logoIn=document.querySelector(".logoIn");
+                logoIn.innerHTML=localStorage.getItem("tels");
+                var aboutLogo=document.querySelector(".aboutLogo");
+                aboutLogo.style.display="none";
+                var detrusion=document.querySelector(".detrusion");
+                detrusion.style.display="block";
+              })
             }else{
               var diva=document.createElement("div");
               diva.style.width="50%";
