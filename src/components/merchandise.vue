@@ -96,11 +96,12 @@
               callback: action => {
                 this.$message({
                   type: 'info',
-                  message: `action: ${ action }`
+                  message:"删除成功"
                 });
               }
             });
             e.target.parentNode.parentNode.parentNode.parentNode.remove();
+            localStorage.removeItem("userId")
             axios.delete("http://localhost:5500/my-objects/"+id,{
               id:id
             }).then(function (res) {
@@ -135,11 +136,12 @@
           callback: action => {
             this.$message({
               type: 'info',
-              message: `action: ${ action }`
+              message:"删除成功"
             });
           }
         });
         e.target.parentNode.parentNode.parentNode.remove();
+        localStorage.removeItem("userId")
         axios.delete("http://localhost:5500/my-objects/"+id,{
           id:id
         }).then(function (res) {
@@ -154,8 +156,16 @@
         this.lookGo=true;
       }
       var that=this;
+      var arre=[]
       axios.get("http://localhost:5500/my-objects/").then(function (res) {
-        that.buyCarGoods=res.data;
+          var phone=localStorage.getItem("userId");
+          for(var i=0;i<res.data.length;i++){
+              if(res.data[i].username==phone){
+                arre.push(res.data[i]);
+                console.log(arre)
+              }
+          }
+          that.buyCarGoods=arre
       },function (err) {
         console.log(err)
       })

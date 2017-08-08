@@ -12,7 +12,8 @@
     name: 'cephalosome',
     methods:{
         goBack(){
-          this.$router.push("/home")
+//          this.$router.push("./time")
+          this.$router.go(-1)
         }
     }
   }
@@ -25,6 +26,10 @@
     height: 4.4rem;
     color: white;
     font-size: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
     /*text-align: center;*/
   }
 </style>

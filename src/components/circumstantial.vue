@@ -26,6 +26,27 @@
         circumstantial:true
       }
     },
+    mounted(){
+      var map = {};
+      window.onhashchange = function() {
+        document.body.scrollTop = 0;
+      }
+      window.onscroll = function() {
+        if (document.body.scrollTop) {
+          // 存
+          map[location.hash] = document.body.scrollTop;
+        } else {
+          var timer = null;
+          timer = setInterval(function(){
+            if (document.body.scrollTop == map[location.hash]) {
+              clearInterval(timer);
+            } else {
+              document.body.scrollTop = map[location.hash];
+            }
+          }, 20);
+        }
+      }
+    },
     methods:{
       goInter(index,obj){
 //        console.log(index);

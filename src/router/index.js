@@ -8,6 +8,7 @@ import All from '@/components/All'
 import Time from '@/components/Time'
 import Car from '@/components/Car'
 import Mine from '@/components/Mine'
+import loginall from '@/components/loginall'
 
 
 import Principal from '@/components/Principal'
@@ -28,42 +29,45 @@ import recommend from '@/components/recommend'
 import standards from '@/components/standards'
 import discuss from '@/components/discuss'
 
+
+
+
 Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/detailpage',
-      name: 'detailpage',
-      component: detailpage,
-      children:[
-        {
-          path: 'recommend',
-          name: 'recommend',
-          component: recommend,
-        },
-        {
-          path: 'standards',
-          name: 'standards',
-          component: standards,
-        },
-        {
-          path: 'discuss',
-          name: 'discuss',
-          component: discuss,
-        }
-      ]
-    },
-    {
-      path: '/listcolumn',
-      name: 'listcolumn',
-      component: listcolumn,
-    },
-    {
       path: '/',
       name: 'Tabbar',
       component: Tabbar,
       children:[
+        {
+          path: '/listcolumn',
+          name: 'listcolumn',
+          component: listcolumn,
+        },
+        {
+          path: '/detailpage',
+          name: 'detailpage',
+          component: detailpage,
+          children:[
+            {
+              path: 'recommend',
+              name: 'recommend',
+              component: recommend,
+            },
+            {
+              path: 'standards',
+              name: 'standards',
+              component: standards,
+            },
+            {
+              path: 'discuss',
+              name: 'discuss',
+              component: discuss,
+            }
+          ]
+        },
         {
           path: 'home',
           name: 'home',
@@ -140,6 +144,11 @@ export default new Router({
           path: 'mine',
           name: 'mine',
           component: Mine,
+        },
+        {
+          path: 'loginall',
+          name: 'loginall',
+          component: loginall,
         }
       ]
     },

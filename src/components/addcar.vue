@@ -32,30 +32,64 @@
         var littleMoney=document.querySelector(".littleMoney");
         var amount=document.querySelector(".amount");
         var that=this;
-        axios.get("http://localhost:5500/my-objects/").then(function (res) {
-          that.names=res.data;
-          console.log(that.names.length);
-          var arr=[];
+        var usess=localStorage.getItem("userId");
+        console.log(usess)
+        if(usess=""){
+            this.$router.push("/car");
+        }else{
+          axios.get("http://localhost:5500/my-objects/").then(function (res) {
+            that.names=res.data;
+            console.log(that.names.length);
+            var arr=[];
 //          console.log(that.names[x].name.indexOf(nameTu.innerHTML))
-          if(that.names.length!=0){
-            for(var x=0;x<that.names.length;x++){
+            if(that.names.length!=0){
+              for(var x=0;x<that.names.length;x++){
                 arr.push(that.names[x].name)
                 console.log(that.names[x].name==nameTu.innerHTML);
-              if(that.names[x].name==nameTu.innerHTML){
-                axios.put("http://localhost:5500/my-objects/"+that.names[x].id,{
-                  num:parseInt(that.names[x].num)+parseInt(amount.innerHTML)
+                if(that.names[x].name==nameTu.innerHTML){
+                  axios.put("http://localhost:5500/my-objects/"+that.names[x].id,{
+                    num:parseInt(that.names[x].num)+parseInt(amount.innerHTML)
+                  }).then(function (res) {
+                    return;
+                  })
+                }
+              }
+              if(arr.indexOf(nameTu.innerHTML)==-1){
+//                arr.push(that.names[x].name);
+                axios.post("http://localhost:5500/my-objects",{
+                  name:nameTu.innerHTML,
+                  price:littleMoney.innerHTML,
+                  num:amount.innerHTML,
+                  img:picTu.src,
+                  username:localStorage.getItem("userId")
                 }).then(function (res) {
+                  var diva=document.createElement("div");
+                  diva.style.width="50%";
+                  diva.style.height="50px";
+                  diva.style.backgroundColor="rgba(0,0,0,0.5)";
+                  diva.style.borderRadius="10px";
+                  diva.style.lineHeight="50px";
+                  diva.style.textAlign="center";
+                  diva.style.color="white";
+                  diva.style.position="absolute";
+                  diva.style.top="200px";
+                  diva.style.left="25%";
+                  diva.innerHTML="加入购物车成功";
+                  document.body.appendChild(diva);
+                  diva.onclick=function () {
+                    diva.style.display="none";
+                  };
+                  localStorage.setItem("vals","成功");
                   return;
                 })
               }
-            }
-            if(arr.indexOf(nameTu.innerHTML)==-1){
-//                arr.push(that.names[x].name);
+            }else{
               axios.post("http://localhost:5500/my-objects",{
                 name:nameTu.innerHTML,
                 price:littleMoney.innerHTML,
                 num:amount.innerHTML,
-                img:picTu.src
+                img:picTu.src,
+                username:localStorage.getItem("userId")
               }).then(function (res) {
                 var diva=document.createElement("div");
                 diva.style.width="50%";
@@ -73,41 +107,16 @@
                 diva.onclick=function () {
                   diva.style.display="none";
                 };
-                localStorage.setItem("vals","成功");
+                localStorage.setItem("vals","成功")
                 return;
               })
             }
-          }else{
-            axios.post("http://localhost:5500/my-objects",{
-            name:nameTu.innerHTML,
-            price:littleMoney.innerHTML,
-            num:amount.innerHTML,
-            img:picTu.src
-          }).then(function (res) {
-            var diva=document.createElement("div");
-            diva.style.width="50%";
-            diva.style.height="50px";
-            diva.style.backgroundColor="rgba(0,0,0,0.5)";
-            diva.style.borderRadius="10px";
-            diva.style.lineHeight="50px";
-            diva.style.textAlign="center";
-            diva.style.color="white";
-            diva.style.position="absolute";
-            diva.style.top="200px";
-            diva.style.left="25%";
-            diva.innerHTML="加入购物车成功";
-            document.body.appendChild(diva);
-            diva.onclick=function () {
-            diva.style.display="none";
-          };
-            localStorage.setItem("vals","成功")
-            return;
-          })
-          }
 
           },function (err) {
             console.log(err)
           })
+        }
+
       }
     }
   }
@@ -125,6 +134,7 @@
   border-top: 1px solid gainsboro;
   display: flex;
   justify-content: space-around;
+  z-index: 999;
 }
 .peopleCar{
   text-align: center;

@@ -3,7 +3,7 @@
     <!--账户中心-->
     <account></account>
     <!--背景-->
-    <backdrop></backdrop>
+    <backdrops></backdrops>
     <!--8个待处理项-->
     <pending></pending>
     <!--我的订单-->
@@ -12,7 +12,6 @@
     <favorable></favorable>
     <!--密码和登录信息-->
     <information></information>
-
   </div>
 </template>
 
@@ -20,7 +19,7 @@
   //  引用账户中心
   import account from '@/components/account'
   //  引用背景
-  import backdrop from '@/components/backdrop'
+  import backdrops from '@/components/backdrops'
   //  引用待处理项
   import pending from '@/components/pending'
   //  引用我的订单
@@ -33,7 +32,7 @@
     name: 'mine',
     components:{
       account,
-      backdrop,
+      backdrops,
       pending,
       indent,
       favorable,

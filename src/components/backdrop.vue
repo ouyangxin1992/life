@@ -1,12 +1,12 @@
 <template>
   <div class="backdrop">
-    <p class="logoIn">您还未登录</p>
-    <div class="detrusion" v-on:click="pushOut">
-        退出登录
-    </div>
-    <div class="aboutLogo">
+    <p class="logoIn">{{valss}}</p>
+    <div class="aboutLogo" v-if="ssa">
       <p class="firs" v-on:click="goLogo">登录</p>
       <p v-on:click="newLogo">注册</p>
+    </div>
+    <div class="detrusion" v-on:click="pushOut" v-else>
+      退出登录
     </div>
 </div>
 </template>
@@ -15,14 +15,28 @@
   import axios from 'axios';
   export default {
     name: 'backdrop',
+    data(){
+        return{
+          valss:"",
+          ssa:true
+        }
+    },
+    created(){
+      if(localStorage.getItem("tels")){
+        this.valss=localStorage.getItem("tels");
+        localStorage.setItem("userId",this.valss);
+        this.ssa=false
+      }else{
+        this.valss="您还未登录";
+        this.ssa=true
+      }
+    },
     methods:{
         pushOut(){
-          var logoIn=document.querySelector(".logoIn");
-          logoIn.innerHTML="您还未登录";
-          var aboutLogo=document.querySelector(".aboutLogo");
-          aboutLogo.style.display="flex";
-          var detrusion=document.querySelector(".detrusion");
-          detrusion.style.display="none";
+          this.valss="您还未登录"
+          this.ssa=true;
+          localStorage.removeItem("tels");
+          localStorage.removeItem("userId");
         },
         goLogo(){
             var latent=document.querySelector(".latent");
@@ -109,23 +123,32 @@
           inp3.style.color="white";
           inp3.style.borderRadius="20px";
           dv0.appendChild(inp3);
+          var that=this;
+          inp1.onblur=function () {
+            if(inp1.value){
+              localStorage.setItem("tels",inp1.value);
+              localStorage.setItem("userId",inp1.value);
+              that.ssa=false;
+            }
+          };
           inp3.onclick=function () {
-             var tels=localStorage.getItem("tels");
-             var keys=localStorage.getItem("keys");
-             var that=this;
+             var _this=that;
             axios.get("http://localhost:5500/my-user/").then(function (res) {
                 that.user=res.data;
+              localStorage.setItem("tels",inp1.value);
                 for (var m=0;m<that.user.length;m++){
+//                    console.log(localStorage.getItem("userId"))
                   if(that.user[m].tel==inp1.value && that.user[m].password==inp2.value){
                     latent.style.display="block";
                     dv0.style.display="none";
+                    _this.ssa=false;
                     var logoIn=document.querySelector(".logoIn");
-                    logoIn.innerHTML=localStorage.getItem("tels");
+                    logoIn.innerHTML=that.user[m].tel;
                     var aboutLogo=document.querySelector(".aboutLogo");
                     aboutLogo.style.display="none";
-                    var detrusion=document.querySelector(".detrusion");
-                    detrusion.style.display="block";
+
                   }else{
+
                     var divas=document.createElement("div");
                     divas.style.width="50%";
                     divas.style.height="50px";
@@ -326,10 +349,20 @@
         inp3.style.color="white";
         inp3.style.borderRadius="20px";
         dv0.appendChild(inp3);
+        var that=this;
+        inp1.onblur=function () {
+            if(inp1.value){
+              localStorage.setItem("tels",inp1.value);
+              localStorage.setItem("userId",inp1.value);
+              that.ssa=false;
+            }
+        };
         inp3.onclick=function () {
             if(inp1.value && inp2.value && inp4.value){
               localStorage.setItem("tels",inp1.value);
               localStorage.setItem("keys",inp2.value);
+              localStorage.setItem("userId",inp1.value);
+              var _this=that
               axios.post("http://localhost:5500/my-user",{
                 tel:inp1.value,
                 password:inp2.value
@@ -340,8 +373,6 @@
                 logoIn.innerHTML=localStorage.getItem("tels");
                 var aboutLogo=document.querySelector(".aboutLogo");
                 aboutLogo.style.display="none";
-                var detrusion=document.querySelector(".detrusion");
-                detrusion.style.display="block";
               })
             }else{
               var diva=document.createElement("div");
@@ -392,10 +423,10 @@
     width: 50%;
     margin-left: 25%;
     color: red;
-    display: none;
+    /*display: none;*/
   }
   .aboutLogo{
-    height: 3rem;
+    height: 2rem;
     color: #89BE48;
     display: flex;
     width: 50%;

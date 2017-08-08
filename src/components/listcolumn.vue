@@ -43,7 +43,7 @@
         console.log(localStorage.getItem("getId"))
       },
       goBacks(){
-        this.$router.push("/home")
+        this.$router.push("-1")
       }
     },
     created(){
