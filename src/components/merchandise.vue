@@ -6,19 +6,19 @@
     </div>
 
     <div class="showCar">
-      <div class="goodsInfo" v-for="item in buyCarGoods" >
-        <input type="checkbox" class="mag">
-        <img :src="item.img" alt="">
+        <div class="goodsInfo" v-for="item in buyCarGoods" >
+          <input type="checkbox" class="mag" v-on:click="radioClick">
+          <img :src="item.img" alt="">
         <div>
           <p>{{item.name}}</p>
           <p>
               <span class="priceSin">{{item.price}}</span>
-          <span class="control">
-            <span v-on:click="cut(item.id)"> - </span>
-            <span class="count">{{item.num}}</span>
-            <span v-on:click="joins(item.id)"> + </span>
-          </span>
-            <span style="margin-right:10%" v-on:click="dels(item.id)">删除</span>
+              <span class="control">
+                <span v-on:click="cut(item.id)"> - </span>
+                <span class="count">{{item.num}}</span>
+                <span v-on:click="joins(item.id)"> + </span>
+              </span>
+            <span style="margin-right:5%" v-on:click="dels(item.id)">删除</span>
           </p>
         </div>
       </div>
@@ -46,6 +46,7 @@
 
 <script>
   import axios from 'axios';
+  import { MessageBox } from 'mint-ui';
   export default {
     name: 'merchandise',
     data(){
@@ -56,6 +57,23 @@
         }
     },
     methods:{
+//        单选
+      radioClick(e){
+          if(!e){
+              e=window.event;
+          }
+          var mag=document.querySelectorAll(".mag");
+        var toGetNum=document.querySelector(".toGetNum");
+        var priceSin=document.querySelectorAll(".priceSin");
+        var count=document.querySelectorAll(".count");
+        var num=0;
+          for (var i in this.buyCarGoods){
+            if(mag[i].checked){
+              num += parseInt(parseInt(priceSin[i].innerHTML.slice(1))*parseInt(count[i].innerHTML));
+            }
+          }
+        toGetNum.innerHTML=num;
+      },
 //        全选
       selAll(e){
           var selects=document.querySelector(".el-checkbox__original");
@@ -64,19 +82,19 @@
           var priceSin=document.querySelectorAll(".priceSin");
           var count=document.querySelectorAll(".count");
           var num=0;
-          if(selects.checked){
-              console.log(1);
-             for(var s in this.buyCarGoods){
+            if(selects.checked){
+              for(var s in this.buyCarGoods){
                 this.$set(mag[s],"checked",true);
-                 num += parseInt(parseInt(priceSin[s].innerHTML.slice(1))*parseInt(count[s].innerHTML));
-             }
-            toGetNum.innerHTML=num;
-          }else{
-            for(var s=0;s<mag.length;s++){
-              this.$set(mag[s],"checked",false);
+                num += parseInt(parseInt(priceSin[s].innerHTML.slice(1))*parseInt(count[s].innerHTML));
+              }
               toGetNum.innerHTML=num;
+            }else{
+              for(var s=0;s<mag.length;s++){
+                this.$set(mag[s],"checked",false);
+                toGetNum.innerHTML=num;
+              }
             }
-          }
+
       },
       goToH(){
         this.$router.push("/home")
@@ -91,15 +109,7 @@
           num--;
           if(num<1){
             num=1;
-            this.$alert('确定删除这个商品吗', '删除', {
-              confirmButtonText: '确定',
-              callback: action => {
-                this.$message({
-                  type: 'info',
-                  message:"删除成功"
-                });
-              }
-            });
+            MessageBox('提示', '删除成功');
             e.target.parentNode.parentNode.parentNode.parentNode.remove();
             localStorage.removeItem("userId")
             axios.delete("http://localhost:5500/my-objects/"+id,{
@@ -109,7 +119,7 @@
           }
           e.target.nextElementSibling.innerHTML=num;
           axios.put("http://localhost:5500/my-objects/"+id,{
-            num:count.innerHTML
+            num:e.target.nextElementSibling.innerHTML
           }).then(function (res) {
           })
       },
@@ -122,7 +132,7 @@
           num++;
           e.target.previousElementSibling.innerHTML=num;
           axios.put("http://localhost:5500/my-objects/"+id,{
-            num:count.innerHTML
+            num:e.target.previousElementSibling.innerHTML
           }).then(function (res) {
 
           })
@@ -131,17 +141,9 @@
         if(!e){
           e=window.event;
         }
-        this.$alert('确定删除这个商品吗', '删除', {
-          confirmButtonText: '确定',
-          callback: action => {
-            this.$message({
-              type: 'info',
-              message:"删除成功"
-            });
-          }
-        });
+        MessageBox('提示', '删除成功');
         e.target.parentNode.parentNode.parentNode.remove();
-        localStorage.removeItem("userId")
+//        localStorage.removeItem("userId")
         axios.delete("http://localhost:5500/my-objects/"+id,{
           id:id
         }).then(function (res) {
@@ -159,6 +161,7 @@
       var arre=[]
       axios.get("http://localhost:5500/my-objects/").then(function (res) {
           var phone=localStorage.getItem("userId");
+          console.log(phone)
           for(var i=0;i<res.data.length;i++){
               if(res.data[i].username==phone){
                 arre.push(res.data[i]);
@@ -214,7 +217,7 @@
   }
   /*加减控制器*/
   .control{
-    margin-left:35%;
+    margin-left:15%;
     display: inline-block;
   }
   .control span:nth-child(1){
@@ -273,7 +276,7 @@
     width: 50%;
   }
   .money span{
-   line-height: 5rem;
+    line-height: 5rem;
     height:2rem;
     font-size: 1.5rem;
   }

@@ -1,7 +1,7 @@
 <template>
     <div class="circumstantial">
       <div  v-for="(obj , index) in circumstantial" class="oo" v-on:click="goInter(index,obj)">
-        <img :src="obj.ImageUrl" alt="">
+        <img  v-lazy="obj.ImageUrl" alt="">
         <p class="pp">{{obj.Name}}</p>
         <div class="openIn">
           <p>
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-  import axios from"axios"
+  import axios from"axios";
   export default {
     name: 'circumstantial',
     data(){
@@ -26,35 +26,20 @@
         circumstantial:true
       }
     },
-    mounted(){
-      var map = {};
-      window.onhashchange = function() {
-        document.body.scrollTop = 0;
-      }
-      window.onscroll = function() {
-        if (document.body.scrollTop) {
-          // 存
-          map[location.hash] = document.body.scrollTop;
-        } else {
-          var timer = null;
-          timer = setInterval(function(){
-            if (document.body.scrollTop == map[location.hash]) {
-              clearInterval(timer);
-            } else {
-              document.body.scrollTop = map[location.hash];
-            }
-          }, 20);
-        }
-      }
-    },
     methods:{
       goInter(index,obj){
-//        console.log(index);
+        sessionStorage[location.hash]=document.body.scrollTop;
         this.$router.push({path:"/detailpage",query:{id:index}});
         localStorage.setItem("getId",obj.ItemInfoID);
       }
     },
     created(){
+      if(sessionStorage.getItem(location.hash)){
+          setTimeout(function () {
+            document.body.scrollTop=sessionStorage.getItem(location.hash);
+            sessionStorage.removeItem(location.hash)
+          },200)
+      }
       var ar1=this;
       axios.get("../../static/data/time.json").then(function (data) {
         ar1.circumstantial=data.data.InnerData.StrollList;

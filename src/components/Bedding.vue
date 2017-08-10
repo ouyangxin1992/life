@@ -1,5 +1,8 @@
 <template>
   <div class="bedding">
+    <el-button type="primary" @click="openFullScreen" v-loading.fullscreen.lock="fullscreenLoading"
+               style="background-color:rgba(0,0,0,0) ;border:none">
+    </el-button>
     <!--十大分类-->
     <toolBed></toolBed>
     <!--睡觉-->
@@ -18,6 +21,22 @@
   import recomentns from '@/components/recomentns'
   export default {
     name: 'bedding',
+    data(){
+      return{
+        fullscreenLoading:false,
+      }
+    },
+    created(){
+      this.openFullScreen();
+    },
+    methods:{
+      openFullScreen() {
+        this.fullscreenLoading = true;
+        setTimeout(() => {
+          this.fullscreenLoading = false;
+        }, 1500);
+      }
+    },
     //    配置信息
     components:{
       toolBed,

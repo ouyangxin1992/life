@@ -53,7 +53,7 @@
    background-size: 300% 220%;
  }
 .chartSmall3{
-  width: 33.6%;
+  width: 32%;
   height: 8em;
   display: inline-block;
   background-image: url("../../static/img/water.jpg");

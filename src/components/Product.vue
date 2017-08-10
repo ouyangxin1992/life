@@ -1,5 +1,8 @@
 <template>
   <div class="product">
+    <el-button type="primary" @click="openFullScreen" v-loading.fullscreen.lock="fullscreenLoading"
+               style="background-color:rgba(0,0,0,0) ;border:none">
+    </el-button>
       <p class="weeks">最近一周新品</p>
       <div class="bigAll">
         <div v-for="(obj,index) in  newGoods" v-on:click="goProduct(obj,index)" class="buys">
@@ -25,7 +28,8 @@ import axios from"axios"
     name: 'product',
     data(){
         return{
-          newGoods:true
+          newGoods:true,
+          fullscreenLoading:false,
         }
     },
     methods:{
@@ -33,9 +37,16 @@ import axios from"axios"
         this.$router.push({path:"/detailpage",query:{id:index}});
         localStorage.setItem("getId",obj.ItemInfoId);
         console.log(localStorage.getItem("getId"))
+      },
+      openFullScreen() {
+        this.fullscreenLoading = true;
+        setTimeout(() => {
+          this.fullscreenLoading = false;
+        }, 1500);
       }
     },
     created(){
+        this.openFullScreen();
         var arr2=this;
         axios.get("../../static/data/homeHot.json").then(function (data) {
           arr2.newGoods=data.data.InnerData;

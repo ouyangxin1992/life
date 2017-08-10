@@ -1,10 +1,14 @@
 <template>
+  <!--注册登录-->
   <div class="backdrop">
+    <!--账号名-->
     <p class="logoIn">{{valss}}</p>
+    <!--登录注册-->
     <div class="aboutLogo" v-if="ssa">
       <p class="firs" v-on:click="goLogo">登录</p>
       <p v-on:click="newLogo">注册</p>
     </div>
+    <!--退出登录-->
     <div class="detrusion" v-on:click="pushOut" v-else>
       退出登录
     </div>
@@ -12,15 +16,21 @@
 </template>
 
 <script>
+//  <!--引入axios-->
   import axios from 'axios';
+//  引入mint插件的提示框toast
+  import { Toast } from 'mint-ui';
   export default {
     name: 'backdrop',
+//    data对象
     data(){
         return{
           valss:"",
-          ssa:true
+          ssa:true,
+          users:true
         }
     },
+//    创建完成后
     created(){
       if(localStorage.getItem("tels")){
         this.valss=localStorage.getItem("tels");
@@ -33,10 +43,9 @@
     },
     methods:{
         pushOut(){
-          this.valss="您还未登录"
+          this.valss="您还未登录";
           this.ssa=true;
           localStorage.removeItem("tels");
-          localStorage.removeItem("userId");
         },
         goLogo(){
             var latent=document.querySelector(".latent");
@@ -132,41 +141,29 @@
             }
           };
           inp3.onclick=function () {
-             var _this=that;
-            axios.get("http://localhost:5500/my-user/").then(function (res) {
-                that.user=res.data;
-              localStorage.setItem("tels",inp1.value);
-                for (var m=0;m<that.user.length;m++){
-//                    console.log(localStorage.getItem("userId"))
-                  if(that.user[m].tel==inp1.value && that.user[m].password==inp2.value){
-                    latent.style.display="block";
-                    dv0.style.display="none";
-                    _this.ssa=false;
-                    var logoIn=document.querySelector(".logoIn");
-                    logoIn.innerHTML=that.user[m].tel;
-                    var aboutLogo=document.querySelector(".aboutLogo");
-                    aboutLogo.style.display="none";
-
-                  }else{
-
-                    var divas=document.createElement("div");
-                    divas.style.width="50%";
-                    divas.style.height="50px";
-                    divas.style.backgroundColor="rgba(0,0,0,0.5)";
-                    divas.style.borderRadius="10px";
-                    divas.style.lineHeight="50px";
-                    divas.style.textAlign="center";
-                    divas.style.color="white";
-                    divas.style.position="absolute";
-                    divas.style.top="200px";
-                    divas.style.left="25%";
-                    divas.innerHTML="请输入正确信息";
-                    document.body.appendChild(divas);
-                    divas.onclick=function () {
-                      divas.style.display="none";
-                    };
-                    return;
+              var _this=that;
+            axios.get("http://localhost:5500/my-user/").then(function (data) {
+              _this.users=data.data;
+                var arrt=[];
+                localStorage.setItem("userId",inp1.value);
+                for(var w=0;w<_this.users.length;w++){
+                   arrt.push(_this.users[w].tel);
+                  if(_this.users[w].tel==inp1.value && _this.users[w].password==inp2.value){
+                        latent.style.display="block";
+                        dv0.style.display="none";
+                        _this.ssa=false;
+                        var logoIn=document.querySelector(".logoIn");
+                        logoIn.innerHTML=_this.users[w].tel;
                   }
+                }
+                if(arrt.indexOf((inp1.value)*1)==-1){
+                  Toast({
+                    message: '请输入正确信息',
+                    position: 'middle',
+                    duration: 2000
+                  });
+                  _this.ssa=true;
+                  return
                 }
             })
           }
@@ -287,39 +284,17 @@
               this.setAttribute("disabled", "true");
               this.innerHTML="已发送（" + curCount + "s）";
               InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次
-              var dis=document.createElement("div");
-              dis.style.width="50%";
-              dis.style.height="50px";
-              dis.style.backgroundColor="rgba(0,0,0,0.5)";
-              dis.style.borderRadius="10px";
-              dis.style.lineHeight="50px";
-              dis.style.textAlign="center";
-              dis.style.color="white";
-              dis.style.position="absolute";
-              dis.style.top="200px";
-              dis.style.left="25%";
-              dis.innerHTML=code;
-              document.body.appendChild(dis);
-              dis.onclick=function () {
-                dis.style.display="none";
-              }
+              Toast({
+                message: code,
+                position: 'middle',
+                duration: 3000
+              });
             }else{
-              var divs=document.createElement("div");
-              divs.style.width="50%";
-              divs.style.height="50px";
-              divs.style.backgroundColor="rgba(0,0,0,0.5)";
-              divs.style.borderRadius="10px";
-              divs.style.lineHeight="50px";
-              divs.style.textAlign="center";
-              divs.style.color="white";
-              divs.style.position="absolute";
-              divs.style.top="200px";
-              divs.style.left="25%";
-              divs.innerHTML="信息有误";
-              document.body.appendChild(divs);
-              divs.onclick=function () {
-                divs.style.display="none";
-              }
+              Toast({
+                message: '信息有误',
+                position: 'middle',
+                duration: 2000
+              });
             }
             //timer处理函数
             function SetRemainTime() {
@@ -371,26 +346,13 @@
                 dv0.style.display="none";
                 var logoIn=document.querySelector(".logoIn");
                 logoIn.innerHTML=localStorage.getItem("tels");
-                var aboutLogo=document.querySelector(".aboutLogo");
-                aboutLogo.style.display="none";
               })
             }else{
-              var diva=document.createElement("div");
-              diva.style.width="50%";
-              diva.style.height="50px";
-              diva.style.backgroundColor="rgba(0,0,0,0.5)";
-              diva.style.borderRadius="10px";
-              diva.style.lineHeight="50px";
-              diva.style.textAlign="center";
-              diva.style.color="white";
-              diva.style.position="absolute";
-              diva.style.top="200px";
-              diva.style.left="25%";
-              diva.innerHTML="请填完整信息";
-              document.body.appendChild(diva);
-              diva.onclick=function () {
-                diva.style.display="none";
-              };
+              Toast({
+                message: '请填完整信息',
+                position: 'middle',
+                duration: 2000
+              });
               return;
             }
         }

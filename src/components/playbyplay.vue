@@ -1,4 +1,5 @@
 <template>
+  <!--详情页面-->
   <div class="playbylay">
      <div class="xia">
        <img src="" alt="" class="picTu">
@@ -66,10 +67,6 @@
           ]
       }
     },
-//    created(){
-//      //	页面默认打开热卖页面
-//      this.$router.push('/detailpage/recommend');
-//    },
     mounted(){
       this.arr=this.$route.query.id;
     },

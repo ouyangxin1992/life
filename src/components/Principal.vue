@@ -34,6 +34,11 @@
     <choiceness></choiceness>
     <!--热卖商品详情-->
     <sell></sell>
+    <!--gotop-->
+    <gotop></gotop>
+    <el-button type="primary" @click="openFullScreen" v-loading.fullscreen.lock="fullscreenLoading"
+               style="background-color:rgba(0,0,0,0) ;border:none">
+    </el-button>
   </div>
 </template>
 
@@ -72,8 +77,26 @@
   import choiceness from '@/components/choiceness'
   // 引用热卖商品详情
   import sell from '@/components/sell'
+  // 引用热卖商品详情
+  import gotop from '@/components/gotop'
   export default {
     name: 'Principal',
+    data(){
+      return{
+        fullscreenLoading:false,
+      }
+    },
+    created(){
+      this.openFullScreen();
+    },
+    methods:{
+      openFullScreen() {
+        this.fullscreenLoading = true;
+        setTimeout(() => {
+          this.fullscreenLoading = false;
+        }, 1500);
+      }
+    },
     //    配置信息
     components:{
       slideshow,
@@ -92,7 +115,8 @@
       charge,
       promise,
       choiceness,
-      sell
+      sell,
+      gotop
     }
   }
 </script>

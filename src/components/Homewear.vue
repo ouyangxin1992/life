@@ -1,5 +1,8 @@
 <template>
   <div class="homewear">
+    <el-button type="primary" @click="openFullScreen" v-loading.fullscreen.lock="fullscreenLoading"
+               style="background-color:rgba(0,0,0,0) ;border:none">
+    </el-button>
     <!--七大分类-->
     <toolDress></toolDress>
     <!--地盘-->
@@ -18,6 +21,22 @@
   import recomes from '@/components/recomes'
   export default {
     name: 'homewear',
+    data(){
+      return{
+        fullscreenLoading:false,
+      }
+    },
+    created(){
+      this.openFullScreen();
+    },
+    methods:{
+      openFullScreen() {
+        this.fullscreenLoading = true;
+        setTimeout(() => {
+          this.fullscreenLoading = false;
+        }, 1500);
+      }
+    },
     //    配置信息
     components:{
       toolDress,

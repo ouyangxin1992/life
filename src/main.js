@@ -5,11 +5,27 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+import VueLazyload from 'vue-lazyload'
+import { Lazyload } from 'mint-ui';
+
+
 
 
 Vue.config.productionTip = false;
 
-Vue.use(ElementUI)
+Vue.use(ElementUI);
+Vue.use(MintUI);
+Vue.use(Lazyload);
+Vue.use(VueLazyload);
+
+
+Vue.use(VueLazyload,{
+  error:"static/img/loading_v2.gif",
+  loading:"static/img/jop.jpg",
+  attempt:3
+});
 
 
 
